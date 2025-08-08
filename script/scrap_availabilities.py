@@ -9,7 +9,7 @@ with open("merged_refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
 
 # ----------- Exclude Pyrénées -----------
-def is_not_pyrenees(refuge):
+def select_area(refuge):
     try:
         lat = refuge["lat"]
         lng = refuge["lng"]
@@ -18,7 +18,7 @@ def is_not_pyrenees(refuge):
         # If lat/lng are missing, include the refuge
         return True
 
-filtered_refuges = [r for r in refuges if is_not_pyrenees(r)]
+filtered_refuges = [r for r in refuges if select_area(r)]
 
 # ----------- FFCAM Endpoint & Headers -----------
 url = "https://centrale.ffcam.fr/index.php?"
@@ -75,12 +75,8 @@ for refuge in filtered_refuges:
         results[name] = {
             "structure": structure_oid,
             "availability": availability,
-            "available_on_aug_13": is_available,
-            "places_on_aug_13": available_places
         }
-
-        checkbox = "✅" if is_available else "❌"
-        print(f"{checkbox} {name:60} ({available_places} places)")
+        print(f"Get {name} availability")
 
     except Exception as e:
         print(f"⚠️ Error fetching {name}: {e}")
@@ -92,7 +88,7 @@ for refuge in filtered_refuges:
     sleep(1)  # Be polite
 
 # ----------- Save Results -----------
-with open("refuge_availabilities_non_pyrenees.json", "w", encoding="utf-8") as f:
+with open("refuge_availabilities.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("\n✅ Done.")

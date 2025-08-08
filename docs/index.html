@@ -97,8 +97,8 @@
     }
 
     Promise.all([
-      fetch("merged_refuges.json").then(r => r.json()),
-      fetch("merged_availability_refuges.json").then(r => r.json())
+      fetch("refuges.json").then(r => r.json()),
+      fetch("refuge_availabilities.json").then(r => r.json())
     ]).then(([metaData, availabilityData]) => {
       // Index metadata by normalized name
       const metaMap = {};
