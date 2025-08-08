@@ -2,7 +2,7 @@ name: Daily Refuge Availability Scraper
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Runs every day at 02:00 UTC
+    - cron: '0 8 * * *' # Runs every day at 02:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,8 @@ jobs:
           python script/scrap_availabilities.py
 
       - name: Commit and push updated data
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
