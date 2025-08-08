@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 # ----------- Load Refuges Data -----------
-with open("merged_refuges.json", "r", encoding="utf-8") as f:
+with open("docs/refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
 
-# ----------- Exclude Pyrénées -----------
+
 def select_area(refuge):
     try:
         lat = refuge["lat"]
@@ -18,7 +18,7 @@ def select_area(refuge):
         # If lat/lng are missing, include the refuge
         return True
 
-filtered_refuges = [r for r in refuges if select_area(r)]
+filtered_refuges = [r for r in refuges[:1]]
 
 # ----------- FFCAM Endpoint & Headers -----------
 url = "https://centrale.ffcam.fr/index.php?"
@@ -88,7 +88,7 @@ for refuge in filtered_refuges:
     sleep(1)  # Be polite
 
 # ----------- Save Results -----------
-with open("refuge_availabilities.json", "w", encoding="utf-8") as f:
+with open("docs/refuge_availabilities.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("\n✅ Done.")
