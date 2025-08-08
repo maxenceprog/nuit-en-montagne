@@ -48,7 +48,7 @@ def build_payload(structure_oid, date="2025-08-01"):
 
 # ----------- Start Scraping -----------
 session = requests.Session()
-results = {}
+results = []
 target_date = "2025-08-13"
 
 print("🔍 Checking availability for 2025-08-13...\n")
@@ -70,18 +70,20 @@ for refuge in filtered_refuges:
                 availability = json.loads(match.group(1))
 
 
-        results[name] = {
+        results.append({
+            "name": name,
             "structure": structure_oid,
             "availability": availability,
-        }
+        })
         print(f"Get {name} availability")
 
     except Exception as e:
         print(f"⚠️ Error fetching {name}: {e}")
-        results[name] = {
+        results.append({
+            "name": name,
             "structure": structure_oid,
             "error": str(e)
-        }
+        })
 
     sleep(0.2)  # Be polite
 
