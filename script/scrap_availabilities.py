@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from time import sleep
 
 # ----------- Load Refuges Data -----------
-with open("merged_refuges.json", "r", encoding="utf-8") as f:
+with open("docs/refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
 
 # ----------- Exclude Pyrénées -----------
@@ -69,8 +69,6 @@ for refuge in filtered_refuges:
             if match:
                 availability = json.loads(match.group(1))
 
-        available_places = availability.get(target_date, 0)
-        is_available = available_places > 0
 
         results[name] = {
             "structure": structure_oid,
@@ -88,7 +86,7 @@ for refuge in filtered_refuges:
     sleep(0.2)  # Be polite
 
 # ----------- Save Results -----------
-with open("refuge_availabilities.json", "w", encoding="utf-8") as f:
+with open("docs/refuge_availabilities.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("\n✅ Done.")
