@@ -18,7 +18,7 @@ def select_area(refuge):
         # If lat/lng are missing, include the refuge
         return True
 
-filtered_refuges = [r for r in refuges if select_area(r)]
+filtered_refuges = [r for r in refuges]
 
 # ----------- FFCAM Endpoint & Headers -----------
 url = "https://centrale.ffcam.fr/index.php?"
@@ -85,7 +85,7 @@ for refuge in filtered_refuges:
             "error": str(e)
         }
 
-    sleep(1)  # Be polite
+    sleep(0.2)  # Be polite
 
 # ----------- Save Results -----------
 with open("refuge_availabilities.json", "w", encoding="utf-8") as f:
