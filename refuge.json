@@ -1,0 +1,3864 @@
+{
+  "BK_STRUCTURE:85": {
+    "structure": "BK_STRUCTURE:85",
+    "name": "Refuge de l'Aigle (FFCAM)",
+    "shortName": "Aigle",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 4,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est en mode non gardé. Couettes et couvertures disponibles. Pas d'eau et pas de gaz.",
+    "completeInfo": "Le refuge est complet. Appeler le gardien pour plus d'informations",
+    "fullWebInfo": "Le refuge est complet. Appeler le gardien pour plus d'informations",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedelaigle<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>76<sp></sp>79<sp></sp>94<sp></sp>74",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:85",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      },
+      {
+        "oid": "BK_PRODUCTCATEGORY:RESTAURATION",
+        "title": "Restauration"
+      }
+    ]
+  },
+  "BK_STRUCTURE:58": {
+    "structure": "BK_STRUCTURE:58",
+    "name": "Refuge des Aiguilles d'Arves  (FFCAM)",
+    "shortName": "Aiguilles d'Arves",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 39,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est actuellement accessible mais non gardé. Vous avez à disposition : lits en dortoir avec couverture, gaz, vaisselle et bois. Le refuge est hors d'eau, le WC est à l'extérieur du refuge en contrebas. Il n'est pas nécessaire de traverser.\r\nPour le règlement, vous trouverez un tronc dans la salle commune.\r\nMerci d'avance.\r\nBon séjour !\r\nLes gardiens Romain, Canelle et Florian",
+    "completeInfo": "Le refuge est complet pour cette date mais n'hésitez pas à vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "S'il n'y a plus de places pour la réservation en ligne, vous pouvez joindre les gardiens par téléphone au 06 70 87 46 52",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesaiguillesdarves<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>70<sp></sp>87<sp></sp>46<sp></sp>5<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:58",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:22": {
+    "structure": "BK_STRUCTURE:22",
+    "name": "Refuge Albert 1er  (FFCAM)",
+    "shortName": "Albert 1er",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 30,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Bonjour,\r\nLe refuge est actuellement non gardé. Vous pouvez consulter les dates de\r\ngardiennage du refuge sur le site internet.\r\nLe refuge d'hiver (cabane en bois) est désormais ouvert et accessible à tous.\r\nVeuillez respecter les lieux, remportez vos déchets dans la vallée, et\r\nparticiper à hauteur de 10 € par personne et par nuitée (quelque soit le statut\r\nde chacun), à verser dans le tronc commun prévu à cet effet. Cette\r\nparticipation permet au club gestionnaire d'entretenir le bâtiment pour\r\nmettre à votre disposition chaque hiver un refuge confortable et chaleureux.\r\nN'oubliez pas de mentionner votre passage sur le livre d'or pour des raisons de\r\nsécurité.\r\nIMPORTANT : Avant de partir nous vous invitons à bien fermer les portes et\r\nfenêtres pour éviter que la neige, la pluie, et les quelques rongeurs et autres\r\nanimaux sauvages avoisinant s'y introduisent.\r\nMerci et bonnes courses.\r\nPaul, le Gardien",
+    "completeInfo": "Bonjour, nous sommes complet à cette date. \r\nInscrivez vous en liste d'attente en cliquant sur \"Attente\" sur la case qui est orange ou rouge de la date souhaitée.\r\nSi des places se libèrent vous recevez un email vous le spécifiant, et il vous faut revenir les réserver en ligne le plus vite possible sur le site de réservation www.ffcam.fr. Toute le monde est prévenu en même temps lorsque des places se libèrent donc soyez réactifs en revenant sur le site de réservation le plus vite possible. Si c'est pour le lendemain appelez nous directement au refuge : +33(0)450540620.\r\nMerci et à bientôt\r\nPaul, le Gardien",
+    "fullWebInfo": "Bonjour, nous sommes complet à cette date. \r\nInscrivez vous en liste d'attente en cliquant sur \"Attente\" sur la case qui est orange ou rouge de la date souhaitée.\r\nSi des places se libèrent vous recevez un email vous le spécifiant, et il vous faut revenir les réserver en ligne le plus vite possible sur le site de réservation www.ffcam.fr. Toute le monde est prévenu en même temps lorsque des places se libèrent donc soyez réactifs en revenant sur le site de réservation le plus vite possible. Si c'est pour le lendemain appelez nous directement au refuge : +33(0)450540620.\r\nMerci et à bientôt\r\nPaul, le Gardien",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugealbert1er<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>4<sp></sp>50<sp></sp>54<sp></sp><p6></p6><sp></sp><p2></p2>0",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:22",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u87ub79d": {
+    "structure": "BK_STRUCTURE:xxx5u87ub79d",
+    "name": "Refuge Albert 1er Non Gardé (FFCAM)",
+    "shortName": "Albert 1er Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p4></p4><sp></sp>50<sp></sp>54<sp></sp><p6></p6><sp></sp><p2></p2>0",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u87ub79d",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:74": {
+    "structure": "BK_STRUCTURE:74",
+    "name": "Refuge de l'Alpe de Villar d'Arène (FFCAM)",
+    "shortName": "Alpe de Villar d Arène",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 20,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Seul le refuge d'hiver est accessible, pas de chauffage ni d'eau. N'oubliez pas de le\r\nlaisser propre et de redescendre les poubelles. Merci",
+    "completeInfo": "N'hésitez pas à nous joindre par téléphone au refuge, nous avons peut être une\r\nsolution à votre demande .",
+    "fullWebInfo": "N'hésitez pas à nous joindre par téléphone au refuge, nous avons peut être une\r\nsolution à votre demande .",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeava<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp><p1></p1>9<sp></sp><p1></p1>9<sp></sp>97",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:74",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:54": {
+    "structure": "BK_STRUCTURE:54",
+    "name": "Refuge d'Ambin  (FFCAM)",
+    "shortName": "Ambin",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 30,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est plus gardé mais reste accessible. A disposition vous trouverez 2 dortoirs, une salle à manger avec un coin cuisine équipé du gaz, un poêle. Pas d'eau.",
+    "completeInfo": "Vous pouvez vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "Vous pouvez contacter le gardien par mail ou par téléphone",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedambin<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p2></p2>0<sp></sp>35<sp></sp>00",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:54",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8838n0j": {
+    "structure": "BK_STRUCTURE:xxx5u8838n0j",
+    "name": "Refuge d'Argentière Non Gardé (FFCAM)",
+    "shortName": "Argentière Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p4></p4><sp></sp>50<sp></sp>53<sp></sp><p1></p1>6<sp></sp>9<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8838n0j",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:124": {
+    "structure": "BK_STRUCTURE:124",
+    "name": "Refuge d'Arrémoulit  (FFCAM)",
+    "shortName": "Arrémoulit",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.",
+    "completeInfo": "Les places disponibles en ligne sont épuisées, merci de nous contacter directement par téléphone",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedarremoulit<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>59<sp></sp><p5></p5><sp></sp>3<p1></p1><sp></sp>79%%<p9></p9><sp></sp>88<sp></sp>77<sp></sp>3<p2></p2><sp></sp>85",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:124",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:53": {
+    "structure": "BK_STRUCTURE:53",
+    "name": "Refuge d'Averole  (FFCAM)",
+    "shortName": "Averole",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "300",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 50,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.",
+    "completeInfo": "Le refuge est complet ce jour, vous pouvez vous inscrire sur la liste d'attente. Vous serez informé par mail si des places se libèrent. Merci",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedaverole<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p7></p7><sp></sp>8<p1></p1><sp></sp><p9></p9><sp></sp>9<p1></p1><sp></sp>4<p1></p1><sp></sp>ne<sp></sp>pas<sp></sp>laisser<sp></sp>de<sp></sp>message<sp></sp>ni<sp></sp>SMS,<sp></sp>ceci<sp></sp>n'est<sp></sp>pas<sp></sp>un<sp></sp>portable",
+    "maxDate": "2026-06-03",
+    "oid": "BK_STRUCTURE:53",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:68": {
+    "structure": "BK_STRUCTURE:68",
+    "name": "Refuge des Bans  (FFCAM)",
+    "shortName": "Bans",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 22,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé. Vous pouvez vous rendre au refuge d'hiver, en autonomie. \r\nSur place, accès au dortoir avec couvertures, à la salle à manger. \r\nPas de moyen de chauffage, ni d'accès à l'eau à l'intérieur du bâtiment.",
+    "completeInfo": "Merci de contacter les gardiens au 09 70 02 85 99 pour connaître les éventuelles places disponibles.",
+    "fullWebInfo": "Merci de contacter les gardiens au 09 70 02 85 99  pour connaître les éventuelles places disponibles.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesbans<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>70<sp></sp>0<p2></p2><sp></sp>85<sp></sp>99",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:68",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:107": {
+    "structure": "BK_STRUCTURE:107",
+    "name": "Refuge de Bayssellance  (FFCAM)",
+    "shortName": "Bayssellance",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 8,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.",
+    "completeInfo": "Le refuge est complet à cette date-là : vous pouvez vous inscrire sur la liste d'attente ou bien décaler votre venue.\r\nVous pouvez également bivouaquer autour du refuge, n'oubliez pas de réserver vos repas auprès du gardien (09 74 77 66 52).",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugebayssellance<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>74<sp></sp>77<sp></sp>66<sp></sp>5<p2></p2><sp></sp>(période<sp></sp>gardée)%%<p6></p6><sp></sp>88<sp></sp><p2></p2>9<sp></sp>89<sp></sp>60<sp></sp>(hors<sp></sp>gardiennage)",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:107",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:125": {
+    "structure": "BK_STRUCTURE:125",
+    "name": "Refuge des Bésines  (FFCAM)",
+    "shortName": "Bésines",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "La réservation en ligne est complète, veuillez appeler directement le refuge au 09 88 77 35 28",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesbesines<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp>77<sp></sp>35<sp></sp><p2></p2>8",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:125",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:46": {
+    "structure": "BK_STRUCTURE:46",
+    "name": "Chalet de Bonneval sur Arc  (FFCAM)",
+    "shortName": "Bonneval sur Arc",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "O",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 7,
+    "maxPax": 15,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Le Refuge est complet. Vous pouvez vous inscrire sur la liste d'attente. Si une place se libère, vous serez alors prévenus par mail et vous pourrez effectuer vos réservations.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<a></a>clubalpinlyon<d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:46",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:112": {
+    "structure": "BK_STRUCTURE:112",
+    "name": "Refuge de la Brèche de Roland - Les Sarradets (FFCAM)",
+    "shortName": "Brèche de Roland - Les Sarradets",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 8,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Une partie non gardée est à votre disposition. Pensez à payer votre nuitée (8 euros) au refuge ou sur le site internet du refuge.",
+    "completeInfo": "Le refuge est très souvent complet pendant la saison. Vous pouvez alors dormir en tente à côté du refuge, et réserver les repas, petits-déjeuners et/ou pique-niques UNIQUEMENT par téléphone au +33 (0)683381324.",
+    "fullWebInfo": "Plus de place au refuge disponible sur Internet (date en orange). Appelez nous, il nous reste peut-être des places...\r\nLe refuge est très souvent complet pendant la saison. Vous pouvez alors dormir en tente à côté du refuge, et réserver les repas, petits-déjeuners et/ou pique-niques UNIQUEMENT par téléphone au +33 (0)683381324",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugebrechederoland<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>83<sp></sp>38<sp></sp><p1></p1>3<sp></sp><p2></p2>4",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:112",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:113": {
+    "structure": "BK_STRUCTURE:113",
+    "name": "Refuge de Campana de Cloutou  (FFCAM)",
+    "shortName": "Campana de Cloutou",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||NEOUVIELLE||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est actuellement non gardé.",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugecampanadecloutou<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp><p2></p2>8<sp></sp>53<sp></sp><p2></p2>3",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:113",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8934wt7": {
+    "structure": "BK_STRUCTURE:xxx5u8934wt7",
+    "name": "Refuge de Campana de Cloutou Non Gardé (FFCAM)",
+    "shortName": "Campana de Cloutou Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||NEOUVIELLE||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugecampanadecloutou<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p1></p1>6<sp></sp>66<sp></sp>30<sp></sp>37",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8934wt7",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:48": {
+    "structure": "BK_STRUCTURE:48",
+    "name": "Refuge du Carro  (FFCAM)",
+    "shortName": "Carro",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "À cette date, le refuge n'est pas gardé mais le local hivernal reste ouvert. Une participation forfaitaire de 8€ par personne vous est demandée pour l'utilisation du gaz, du bois de chauffage et des autres équipements à votre disposition. Le tronc se trouve dans le réfectoire. Merci de laisser les lieux propres à votre départ !",
+    "completeInfo": "Désolé ! Nous sommes complets à cette date. Vous pouvez cependant vous inscrire sur liste d'attente pour être prévenu par e-mail en cas de désistement.",
+    "fullWebInfo": "La réservation en ligne est complète. Vous pouvez cependant nous appeler au 04 79 05 95 79 et réserver directement par téléphone.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeducarro<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>3<p1></p1><sp></sp>87<sp></sp>76<sp></sp>57<sp></sp>(ce<sp></sp>n'est<sp></sp>pas<sp></sp>un<sp></sp>numéro<sp></sp>de<sp></sp>mobile,<sp></sp>merci<sp></sp>de<sp></sp>ne<sp></sp>pas<sp></sp>envoyer<sp></sp>de<sp></sp>SMS%%de<sp></sp>messages<sp></sp>voca",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:48",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:63": {
+    "structure": "BK_STRUCTURE:63",
+    "name": "Refuge de Chabourneou  (FFCAM)",
+    "shortName": "Chabournéou",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge d'hiver est ouvert mais non gardé. \r\nAttention ni gaz ni chauffage ni eau.",
+    "completeInfo": "Refuge complet merci de vous inscrire sur la liste d'attente",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugechabourneou<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>(0)9<sp></sp>88<sp></sp><p2></p2>8<sp></sp><p1></p1><p2></p2><sp></sp><p1></p1><p1></p1>%%+33<sp></sp>(0)6<sp></sp>75<sp></sp>94<sp></sp>98<sp></sp>38",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:63",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:97": {
+    "structure": "BK_STRUCTURE:97",
+    "name": "Refuge de Chambeyron  (FFCAM)",
+    "shortName": "Chambeyron",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 20,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Une quinzaine de lits sont disponibles avec des couvertures, un poële dans la salle principale avec du bois et du charbon, des toilettes sèches. Il faut être automne pour le gaz, le matériel de cuisine (quelques casseroles et couverts, assiettes, verres mais rudimentaire) et l'eau (torrent qui alimente le lac premier accessible pour se ravitailler la plupart du temps).Les nuitées sont à 8 euros par personnes et la taxe de chauffage est à 2 euros par personnes. Merci de laisser le lieu propre et de descendre vos ordures !",
+    "completeInfo": "Le refuge est complet mais appelez toujours les gardiens s'il y a eu une annulation de dernière minute… !! 04 92 84 33 83.",
+    "fullWebInfo": "Les réservations se font par téléphone au 04 92 84 33 83. Merci de contacter les gardiens.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeduchambeyron<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>84<sp></sp>33<sp></sp>83",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:97",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:83": {
+    "structure": "BK_STRUCTURE:83",
+    "name": "Refuge du Chatelleret  (FFCAM)",
+    "shortName": "Chatelleret",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 10,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé.",
+    "completeInfo": "Le refuge est complet aux dates sélectionnées.\r\nN'hésitez pas à regarder d'autres dates, je vous accueillerai avec plaisir !",
+    "fullWebInfo": "Le refuge est complet aux dates sélectionnées.\r\nN'hésitez pas à regarder d'autres dates, je vous accueillerai avec plaisir !",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugechatelleret<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>76<sp></sp>79<sp></sp><p8></p8><sp></sp><p2></p2>7",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:83",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:67": {
+    "structure": "BK_STRUCTURE:67",
+    "name": "Refuge du Clot - Xavier Blanc  (FFCAM)",
+    "shortName": "Clot-Xavier Blanc",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est fermé mais vous pouvez séjourner dans le refuge d'hiver",
+    "completeInfo": "Le refuge est complet, je vous invite à vous inscrire sur la liste d'attente. Un mail vous parviendra si des places se libèrent.",
+    "fullWebInfo": "La réservation en ligne est complète, mais vous pouvez essayer de réserver par téléphone (n° du refuge et le mien 06.67.41.24.21)",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletduclot<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>67<sp></sp>4<p1></p1><sp></sp><p2></p2>4<sp></sp><p2></p2><p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:67",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:45": {
+    "structure": "BK_STRUCTURE:45",
+    "name": "Refuge du Col de la Vanoise",
+    "shortName": "Col de la Vanoise",
+    "allowedOrigins": "||MSFFCAM||FFCAM||VANOISE||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 90,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Refuge non gardé, un refuge d'hiver est à votre disposition.",
+    "completeInfo": "Refuge déjà complet, vous pouvez vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "Refuge déjà complet, vous pouvez vous inscrire sur la liste d'attente.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugecoldelavanoise<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p8></p8><sp></sp><p2></p2>5<sp></sp><p2></p2>3",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:45",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5snuwv3sr": {
+    "structure": "BK_STRUCTURE:xxx5snuwv3sr",
+    "name": "Refuge du Col de la Vanoise Non Gardé",
+    "shortName": "Col de la Vanoise Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||VANOISE||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 6,
+    "maxPax": 26,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à trois jours avant la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à trois jours avant la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepas utiliser<a></a>caf-vanoise-tarentaise<d></d><com></com>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5snuwv3sr",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:34": {
+    "structure": "BK_STRUCTURE:34",
+    "name": "Refuge des Conscrits  (FFCAM)",
+    "shortName": "Conscrits",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 12,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.  Le refuge d'hiver comporte 12 places, des couvertures et de la vaisselle. Se renseigner auprès de la gardienne au 0479890903",
+    "completeInfo": "Le refuge est complet à cette date-là. Vous pouvez contacter directement la gardienne au 0479890903",
+    "fullWebInfo": "Le refuge est complet à cette date-là. Vous pouvez contacter directement la gardienne au 0479890903",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesconscrits<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp>89<sp></sp><p9></p9><sp></sp><p3></p3>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:34",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:4m2wkebwwg2f": {
+    "structure": "BK_STRUCTURE:4m2wkebwwg2f",
+    "name": "Chalet des Contamines  (FFCAM)",
+    "shortName": "Contamines",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est actuellement non gardé. Référez-vous au calendrier d'ouverture afin de planifier votre séjour sur une autre période !",
+    "completeInfo": "Vous réservez trop tard ! Notre établissement est actuellement complet. Vous pouvez vous inscrire sur liste d'attente et nous vous appellerons en cas d'un désistement.",
+    "fullWebInfo": "Vous réservez trop tard ! Notre établissement est actuellement complet. Vous pouvez vous inscrire sur liste d'attente et nous vous appellerons en cas d'un désistement.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletdescontamines<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>50<sp></sp>47<sp></sp>00<sp></sp>88",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:4m2wkebwwg2f",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:129": {
+    "structure": "BK_STRUCTURE:129",
+    "name": "Refuge des Cortalets  (FFCAM)",
+    "shortName": "Cortalets",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "5",
+    "minDate": "2025-08-12",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 10,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé à cette date.",
+    "completeInfo": "Le jour que vous demandez se réserve par téléphone uniquement: 04 68 96 36 19\r\n\r\nVous pouvez vous inscrire sur la  liste d'attente parce que le refuge ce jour-là est complet.\r\nPour pouvoir m'organiser, il faut me dire le nombre exact de personne le régime souhaité (demi-pension, pension complète, etc.) vos coordonnées : e-mail et téléphone portable.\r\n\r\nLe refuge est complet : Pensez au bivouac !\r\n\r\nLe Canigó grand site autorise le bivouac avec tente de 19 heures à 9 heures :\r\n\r\nAutour du refuge il y a une quarantaine d'emplacements, ainsi qu'une douzaine de places à feu\r\n\r\nLe Refuge des Cortalets ne gère pas le bivouac (pas de réservation, pas de frais) mais vous pourrez profiter du service de restauration du refuge : repas du soir, petit-déjeuner, pique-nique. Pour ces services pensez néanmoins à réserver afin que nous puissions vous proposer un service correct.\r\n\r\nEt n'oubliez pas : après votre départ… pas de traces ! Descendez vos déchets dans la vallée, le refuge n'est pas autorisé à les accueillir !\r\n\r\nDans l'attente d'une place qui se libère…",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedescortalets<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>68<sp></sp>96<sp></sp>36<sp></sp><p1></p1>9",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:129",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:91": {
+    "structure": "BK_STRUCTURE:91",
+    "name": "Refuge de Cougourde  (FFCAM)",
+    "shortName": "Cougourde",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||BOREON||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période.",
+    "completeInfo": "Le refuge est complet pendant cette période. N'hésitez pas à vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugelacougourde<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "Refuge:<sp></sp><p9></p9><sp></sp>70<sp></sp><p3></p3><sp></sp>59<sp></sp><p2></p2><p1></p1>%%Réservation<sp></sp>été:<sp></sp><p6></p6><sp></sp><p2></p2>7<sp></sp>36<sp></sp><p1></p1>3<sp></sp>4<p1></p1><sp></sp>Réservation<sp></sp>hiver<sp></sp>refugelacougourde@ffcam<sp></sp>f",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:91",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:24": {
+    "structure": "BK_STRUCTURE:24",
+    "name": "Refuge du Couvercle  (FFCAM)",
+    "shortName": "Couvercle",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Refuge fermé appeler au + 33 6 87 99 01 66 ou + 33 7 71 57 77 85",
+    "completeInfo": "Refuge complet à la réservation en ligne, appeler au + 33 6 87 99 01 66 ou + 33 7 71 57 77 85",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeducouvercle<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+<sp></sp>33<sp></sp>9<sp></sp>8<p2></p2><sp></sp><p1></p1><p2></p2><sp></sp>45<sp></sp><p3></p3>%%+<sp></sp>33<sp></sp>7<sp></sp>7<p1></p1><sp></sp>57<sp></sp>77<sp></sp>85<sp></sp><sp></sp>urgence<sp></sp>+<sp></sp>33<sp></sp>6<sp></sp>87<sp></sp>99<sp></sp>0<p1></p1><sp></sp>66",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:24",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8jh7i7h": {
+    "structure": "BK_STRUCTURE:xxx5u8jh7i7h",
+    "name": "Refuge du Couvercle Non Gardé (FFCAM)",
+    "shortName": "Couvercle Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p4></p4><sp></sp>50<sp></sp>53<sp></sp><p1></p1>6<sp></sp>94",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8jh7i7h",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:35": {
+    "structure": "BK_STRUCTURE:35",
+    "name": "Refuge de la Croix du Bonhomme  (FFCAM)",
+    "shortName": "Croix du Bonhomme",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 22,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période",
+    "completeInfo": "Le refuge est complet pendant cette période. N'hésitez pas à téléphoner au gardien.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugecroixdubonhomme<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>9<sp></sp>70<sp></sp>0<p2></p2><sp></sp>8<p1></p1><sp></sp>47",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:35",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:13": {
+    "structure": "BK_STRUCTURE:13",
+    "name": "Refuge de la Dent d'Oche  (FFCAM)",
+    "shortName": "Dent d'Oche",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Accès fermé et non accessible en période non gardée",
+    "completeInfo": "Une liste d'attente est disponible. Vous pouvez vous y  inscrire. En cas de désistement un mail vous sera envoyé, pour vous inscrire à ce moment.",
+    "fullWebInfo": "Contacter le refuge",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeladentdoche<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>48<sp></sp>90<sp></sp>57<sp></sp>4<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:13",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:52": {
+    "structure": "BK_STRUCTURE:52",
+    "name": "Refuge de la Dent Parrachée",
+    "shortName": "Dent Parrachée",
+    "allowedOrigins": "||MSFFCAM||FFCAM||VANOISE||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 43,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "Complet à la réservation en ligne 04 79 20 32 87",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeladentparrachee<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p2></p2>0<sp></sp>3<p2></p2><sp></sp>87",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:52",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:59": {
+    "structure": "BK_STRUCTURE:59",
+    "name": "Refuge des Drayères  (FFCAM)",
+    "shortName": "Drayères",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge d'hiver est accessible (32 places). L'eau potable à l'extérieur, couvertures, matelas, coussin et toilette sèche à l'extérieur restent à disposition. Règlement de la nuit (8€) dans le tronc svp à l'intérieur du refuge. Il n'y a pas de clé à récupérer. Attention pas de poêle ni bois.",
+    "completeInfo": "Merci de vous inscrire sur la liste d'attente. Vous recevrez un email dès que de la place se libère. N'hésitez pas également à nous appeler.",
+    "fullWebInfo": "Merci de vous inscrire sur la liste d'attente. Vous recevrez un email dès que de la place se libère. N'hésitez pas également à nous appeler.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesdrayeres<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>8<p2></p2><sp></sp><p1></p1><p2></p2><sp></sp>53<sp></sp><p8></p8>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:59",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:82": {
+    "structure": "BK_STRUCTURE:82",
+    "name": "Refuge des Ecrins (FFCAM)",
+    "shortName": "Ecrins",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": null,
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est actuellement non gardé. Merci de nous contacter par mail.",
+    "completeInfo": "Le refuge est à priori complet, mais vous pouvez joindre le gardien par téléphone au 04 92 23 46 66 pour profiter d'éventuels désistements.",
+    "fullWebInfo": "Le refuge est à priori complet, mais vous pouvez joindre le gardien par téléphone au 04 92 23 46 66 pour profiter d'éventuels désistements.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesecrins<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>8<p2></p2><sp></sp><p1></p1><p2></p2><sp></sp>70<sp></sp>85%%<p6></p6><sp></sp><p7></p7><sp></sp>79<sp></sp>89<sp></sp>96",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:82",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:26": {
+    "structure": "BK_STRUCTURE:26",
+    "name": "Refuge de l'Envers des Aiguilles  (FFCAM)",
+    "shortName": "Envers des Aiguilles",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 10,
+    "maxPax": 15,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est actuellement en mode non gardé. La salle à manger ainsi qu'un dortoir de 12 places sont en accès libre. Attention, il n'y a donc pas d'eau, pas de gaz et pas d'électricité. Merci de laisser l'endroit propre et rangé, et de nous signaler tout problème. Bon séjour là-haut !",
+    "completeInfo": "Le refuge affiche complet mais vous pouvez toujours tenter votre chance en nous appelant car il peut y avoir eu des désistements de dernière minute !\r\n06 70 74 19 43",
+    "fullWebInfo": "La réservation en ligne est terminée mais n'hésitez pas à appeler au refuge, il reste peut-être des places disponibles : 06 70 74 19 43",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugelenversdesaiguilles<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>9<sp></sp>70<sp></sp>0<p2></p2><sp></sp>0<p1></p1><sp></sp>54%%+33<sp></sp>6<sp></sp>70<sp></sp>74<sp></sp><p1></p1>9<sp></sp>43",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:26",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8jmexys": {
+    "structure": "BK_STRUCTURE:xxx5u8jmexys",
+    "name": "Refuge de l'Envers des Aiguilles Non Gardé (FFCAM)",
+    "shortName": "Envers des Aiguilles Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p6></p6><sp></sp>70<sp></sp>74<sp></sp><p1></p1>9<sp></sp>43",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8jmexys",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:111": {
+    "structure": "BK_STRUCTURE:111",
+    "name": "Refuge d'Espingo  (FFCAM)",
+    "shortName": "Espingo",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 6,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non-gardé pour la date qui vous intéresse, une partie de 15 places reste à votre disposition. \r\nMerci de fermer correctement portes, fenêtres et volets quand vous quittez les lieux. N'oubliez pas de ramener vos déchets en vallée.\r\nUne contribution de 8 euros est demandée en période non gardée.",
+    "completeInfo": "Le stock de places réservables en ligne est épuisé. Vous pouvez vous inscrire sur liste d'attente.",
+    "fullWebInfo": "Le stock de places réservables en ligne est épuisé. Vous pouvez vous inscrire sur liste d'attente.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedespingo<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp>66<sp></sp>99<sp></sp>69",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:111",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:128": {
+    "structure": "BK_STRUCTURE:128",
+    "name": "Refuge de l'Etang d'Araing  (FFCAM)",
+    "shortName": "Etang d Araing",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Désolé, concernant cette date, le refuge est, à priori, fermé, pour plus d'information merci de prendre contact avec le gardien  soit au refuge 05 61 96 73 73 soit sur le portable au 06 88 69 46 07 (hors gardiennage)",
+    "completeInfo": "Il n'y a plus de place en ligne disponible merci de réserver directement au refuge au 05 61 96 73 73",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeetangdaraing<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>6<p1></p1><sp></sp>96<sp></sp>73<sp></sp>73",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:128",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:126": {
+    "structure": "BK_STRUCTURE:126",
+    "name": "Refuge de l'Etang Fourcat  (FFCAM)",
+    "shortName": "Etang Fourcat",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé seule la partie hiver est accessible en autonomie.",
+    "completeInfo": "Les places allouées à la réservation en ligne sont toutes réservées, veuillez téléphoner au refuge pour réserver.",
+    "fullWebInfo": "Les places allouées à la réservation en ligne sont toutes réservées, veuillez téléphoner au refuge pour réserver.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeetangfourcat<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>6<p1></p1><sp></sp>65<sp></sp>43<sp></sp><p1></p1>5",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:126",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:127": {
+    "structure": "BK_STRUCTURE:127",
+    "name": "Refuge de l'Etang Pinet  (FFCAM)",
+    "shortName": "Etang Pinet",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé à cette date. Une partie du refuge reste ouverte pour s'y abriter sans eau disponible et sans chauffage. Une participation de 8€ est demandée, payable dans une urne.",
+    "completeInfo": "Le refuge est complet à cette date, inscrivez-vous sur la liste d'attente afin qu'un mail vous soit envoyé en cas d'annulation d'un autre groupe.",
+    "fullWebInfo": "Refuge presque complet, réservation par mail.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeetangpinet<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>6<p1></p1><sp></sp>64<sp></sp>80<sp></sp>8<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:127",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:57": {
+    "structure": "BK_STRUCTURE:57",
+    "name": "Refuge de l'Etendard  (FFCAM)",
+    "shortName": "Etendard",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 64,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé. Pas de réservation possible.",
+    "completeInfo": "Le refuge est complet. Merci de vous inscrire sur la liste d'attente ou de téléphoner au refuge.",
+    "fullWebInfo": "Merci de bien vouloir téléphoner directement au refuge pour réserver.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedeletendard<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>70<sp></sp>0<p2></p2><sp></sp><p1></p1><p1></p1><sp></sp>75%%<p6></p6><sp></sp>8<p2></p2><sp></sp><p7></p7><sp></sp>69<sp></sp>56%%<p4></p4><sp></sp>79<sp></sp>59<sp></sp>74<sp></sp>96",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:57",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:47": {
+    "structure": "BK_STRUCTURE:47",
+    "name": "Refuge des Evettes  (FFCAM)",
+    "shortName": "Evettes",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 36,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est en mode non gardé pour cette période.",
+    "completeInfo": "Le refuge est complet pour la période ou vous souhaitez réserver, n'hésitez pas a vous inscrire sur la liste d'attente pour être prévenu en cas de nouvelles disponibilités.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesevettes<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>5<p2></p2><sp></sp>86<sp></sp>48<sp></sp>53<sp></sp>Merci<sp></sp>de<sp></sp>ne<sp></sp>pas<sp></sp>laisser<sp></sp>de<sp></sp>message<sp></sp>ni<sp></sp>de<sp></sp>SMS,<sp></sp>ceci<sp></sp>n'est<sp></sp>pas<sp></sp>un<sp></sp>portable!",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:47",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:47ntr9jg1dif": {
+    "structure": "BK_STRUCTURE:47ntr9jg1dif",
+    "name": "Chalet alpin l'Eychauda  (FFCAM)",
+    "shortName": "Eychauda",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 15,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Pour toute réservation hors période, vous pouvez nous contacter au 0695418547.",
+    "completeInfo": "Nous vous invitons à vous inscrire sur liste d'attente. Si des places se libèrent, vous serez informés par mail.",
+    "fullWebInfo": "Pour toute information sur les réservations, nous sommes joignables au 0695418547.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletleychauda<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>95<sp></sp>4<p1></p1><sp></sp>85<sp></sp>47",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:47ntr9jg1dif",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:51": {
+    "structure": "BK_STRUCTURE:51",
+    "name": "Refuge du Fond d'Aussois",
+    "shortName": "Fond d Aussois",
+    "allowedOrigins": "||MSFFCAM||FFCAM||VANOISE||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 52,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est hors gardiennage à cette date",
+    "completeInfo": "Merci d'appeler directement au refuge ou de vous inscrire sur la liste d'attente",
+    "fullWebInfo": "Merci d'appeler directement au refuge ou de vous inscrire sur la liste d'attente",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugefonddaussois<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p2></p2>0<sp></sp>39<sp></sp>83",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:51",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:71": {
+    "structure": "BK_STRUCTURE:71",
+    "name": "Refuge de Font Turbat  (FFCAM)",
+    "shortName": "Font Turbat",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 11,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé jusqu'en juin prochain. Le refuge d'hiver vous accueille : passez par la fenêtre, montez du bois, et prenez soin du lieu ! A bientôt !",
+    "completeInfo": "Veuillez-nous contacter par téléphone si il n'est plus possible de réserver par internet.",
+    "fullWebInfo": "Veuillez-nous contacter par téléphone si il n'est plus possible de réserver par internet.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugefontturbat<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp>77<sp></sp>33<sp></sp>0<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:71",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:4tmey6fku2mn": {
+    "structure": "BK_STRUCTURE:4tmey6fku2mn",
+    "name": "Centre formation",
+    "shortName": "FORMATIONCentre",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 15,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "n'hésitez pas à appeler le refuge au 0476302923 pour plus de renseignements",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "cr3<a></a><x></x><d></d><com></com>",
+    "phone": "00<sp></sp>00<sp></sp>00<sp></sp>00<sp></sp>00",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:4tmey6fku2mn",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:94": {
+    "structure": "BK_STRUCTURE:94",
+    "name": "Refuge de Gialorgues  (FFCAM)",
+    "shortName": "Gialorgues",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 3,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé.",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedegialorgues<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:94",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:72": {
+    "structure": "BK_STRUCTURE:72",
+    "name": "Refuge du Glacier Blanc  (FFCAM)",
+    "shortName": "Glacier Blanc",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 99,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé à cette date",
+    "completeInfo": "La réservation en ligne est complète à cette date. Merci de réserver directement par téléphone auprès du gardien au 04 92 23 50 24",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeduglacierblanc<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp><p2></p2>3<sp></sp>50<sp></sp><p2></p2>4%%<p9></p9><sp></sp>8<p2></p2><sp></sp><p1></p1><p2></p2><sp></sp>73<sp></sp>9<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:72",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:123": {
+    "structure": "BK_STRUCTURE:123",
+    "name": "Chalet de Gourette  (FFCAM)",
+    "shortName": "Gourette",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 6,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période et ne dispose pas non plus de salle hors-sac",
+    "completeInfo": "Le refuge est complet à cette date-là.\r\nVous pouvez vous inscrire sur la liste d'attente ou bien décaler votre venue.",
+    "fullWebInfo": "Le refuge est complet à cette date-là.\r\nVous pouvez vous inscrire sur la liste d'attente ou bien décaler votre venue.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletdegourette<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>59<sp></sp><p5></p5><sp></sp><p1></p1>0<sp></sp>56%%<p6></p6><sp></sp>40<sp></sp><p8></p8><sp></sp>6<p2></p2><sp></sp>93%%+34<sp></sp>699<sp></sp><p1></p1>3<sp></sp>4<p1></p1><sp></sp>63",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:123",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:44": {
+    "structure": "BK_STRUCTURE:44",
+    "name": "Refuge du Grand Bec  (FFCAM)",
+    "shortName": "Grand Bec",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 36,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.",
+    "completeInfo": "Les places disponibles en ligne sont épuisées, merci de nous contacter directement par téléphone, pour l'attribution des dernières places.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedugrandbec<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p9></p9><sp></sp>37<sp></sp>6<p1></p1><sp></sp>65",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:44",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8koph3e": {
+    "structure": "BK_STRUCTURE:xxx5u8koph3e",
+    "name": "Refuge du Grand Bec Non Gardé (FFCAM)",
+    "shortName": "Grand Bec Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 6,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepasutiliser<a></a>caf-vanoise-tarentaise<d></d><com></com>",
+    "phone": "<p6></p6><sp></sp><p9></p9><sp></sp>37<sp></sp>6<p1></p1><sp></sp>65",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8koph3e",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:28": {
+    "structure": "BK_STRUCTURE:28",
+    "name": "Refuge des Grands Mulets",
+    "shortName": "Grands Mulets",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 9,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé sur cette période.",
+    "completeInfo": "Toutes les places sont actuellement réservées sur cette période.\r\nVous pouvez toujours tenter de combler les désistements de dernières minutes, en consultant l'agenda de réservation à 48h avant la date désirée.",
+    "fullWebInfo": "Nos réservations en ligne sont actuellement complètes.\r\nDes places seront libérées courant du mois de janvier, de février et de mars.\r\nEn attendant vous pouvez toujours essayer de réserver en ligne sur des créneaux actuellement libres.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesgrandsmulets<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p7></p7><sp></sp>50<sp></sp>70<sp></sp>45<sp></sp>99",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:28",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8kr9qqd": {
+    "structure": "BK_STRUCTURE:xxx5u8kr9qqd",
+    "name": "Refuge des Grands Mulets Non Gardé",
+    "shortName": "Grands Mulets Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p4></p4><sp></sp>50<sp></sp>53<sp></sp>57<sp></sp><p1></p1>0",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8kr9qqd",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:116": {
+    "structure": "BK_STRUCTURE:116",
+    "name": "Chalet la Grange de Holle  (FFCAM)",
+    "shortName": "Grange de Holle",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "450",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 10,
+    "maxPax": 10,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Le centre est complet. N'hésiter à nous contacter pour connaitre les désistements.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletlagrangedeholle<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>6<p2></p2><sp></sp>9<p2></p2><sp></sp>48<sp></sp>77",
+    "maxDate": "2026-10-31",
+    "oid": "BK_STRUCTURE:116",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:15": {
+    "structure": "BK_STRUCTURE:15",
+    "name": "Chalet du Graydon  (FFCAM)",
+    "shortName": "Graydon",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 99,
+    "maxPax": 99,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Refuge complet",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletdegraydon<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>85<sp></sp>99<sp></sp>74<sp></sp>83",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:15",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:139": {
+    "structure": "BK_STRUCTURE:139",
+    "name": "Refuge de la Glère  (FFCAM)",
+    "shortName": "La Glère",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||NEOUVIELLE||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé actuellement, donc inutile de réserver.\r\nCependant le refuge reste accessible en gestion libre.\r\nVous y trouverez 20 places en dortoir, matelas et couverture.\r\nIl y a également du bois de chauffage.\r\nPar contre il faut être autonome pour le gaz et la vaisselle, il n'y a rien pour cuisiner.\r\nIl n'y a pas d'eau non plus, vous avez le lac juste en dessous ou la neige.\r\nPour tout séjour au refuge de la Glère, une participation de 8 € est demandée pour l'entretien du refuge.\r\nMerci.\r\nBon séjour à vous et à bientôt.",
+    "completeInfo": "La réservation en ligne n'est plus possible.\r\nVous pouvez nous joindre par téléphone au 09 82 12 55 32.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedelaglere<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>8<p2></p2><sp></sp><p1></p1><p2></p2><sp></sp>55<sp></sp>3<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:139",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:76": {
+    "structure": "BK_STRUCTURE:76",
+    "name": "Refuge de la Lavey  (FFCAM)",
+    "shortName": "La Lavey",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 18,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Bonjour,\r\n\r\nLe refuge est pour le moment complet à cette date.\r\n\r\n- Nous vous invitons à imaginer une autre date de venue au Refuge de la Lavey si  cela vous est possible.\r\n\r\n- Néamoins, vous pouvez vous inscrire sur la liste d'attente. Vous recevrez alors un mail si des places venaient à se libérer.\r\n\r\n- Il est aussi possible de venir avec votre bivouac et nous pourrons assurer votre repas du soir ainsi que votre petit-déjeuner et éventuellement votre panier pique-nique. Voici notre solution pour vous permettre de venir quand même à la Lavey en randonnant léger ! Pour cette dernière option, il est indispensable de nous appeler au  09 74 04 11 99.\r\n\r\nBien à vous et au plaisir de vous accueillir !\r\n\r\nCamille&Ludmilla",
+    "completeInfo": "Merci de nous contacter directement par téléphone au 07 89 05 66 71",
+    "fullWebInfo": "Merci de nous contacter directement par téléphone au 07 89 05 66 71",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugelalavey<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p7></p7><sp></sp>89<sp></sp><p5></p5><sp></sp>66<sp></sp>7<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:76",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:100": {
+    "structure": "BK_STRUCTURE:100",
+    "name": "Chalet de la Maline - Verdon  (FFCAM)",
+    "shortName": "La Maline",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 44,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "Le chalet est complet à cette date. Surveillez s'il n'y a pas de désistements dans l'avenir.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletlamaline<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>77<sp></sp>38<sp></sp><p5></p5>%%<p4></p4><sp></sp>86<sp></sp>90<sp></sp>58<sp></sp>66",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:100",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:56": {
+    "structure": "BK_STRUCTURE:56",
+    "name": "Refuge de la Pra  (FFCAM)",
+    "shortName": "La Pra",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 23,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedelapra<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp><p2></p2>8<sp></sp><p1></p1>6<sp></sp>69",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:56",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8l09uta": {
+    "structure": "BK_STRUCTURE:xxx5u8l09uta",
+    "name": "Refuge de la Pra Non Gardé",
+    "shortName": "La Pra Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 10,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepasutiliser<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp><p2></p2>8<sp></sp><p1></p1>6<sp></sp>69",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8l09uta",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:5": {
+    "structure": "BK_STRUCTURE:5",
+    "name": "Chalet du Langenberg  (FFCAM)",
+    "shortName": "Langenberg",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 10,
+    "maxPax": 26,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Le refuge est complet ; nous vous incitons à vous inscrire sur la liste d'attente",
+    "fullWebInfo": "Merci de contacter le gardien par mail pour évaluer les possibilités de réservation.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletlangenberg<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:5",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:121": {
+    "structure": "BK_STRUCTURE:121",
+    "name": "Refuge de Larribet  (FFCAM)",
+    "shortName": "Larribet",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 15,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Refuge non gardé à cette date donc inutile de réserver. Cependant, il reste ouvert et disponible pour vos projets de randonnées (32 places dans le dortoir avec couverture, salle hors-sac, réfectoire, bois, poêle) et 7 € par personne et par nuit seront à déposer sur place au refuge dans la tronc.",
+    "completeInfo": "Plus de places disponibles à la réservation en ligne. Appelez nous, il reste sûrement des places au refuge !",
+    "fullWebInfo": "Oups ! Le refuge est complet à cette date... Si vous le pouvez, choisissez en une autre ! Ou bien n'hésitez pas à vous inscrire en liste d'attente (souvent ça marche!!!). Merci",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedelarribet<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp>66<sp></sp>6<p1></p1><sp></sp><p2></p2><p2></p2>%%HS:<sp></sp><p6></p6><sp></sp>67<sp></sp>3<p2></p2><sp></sp><p1></p1>4<sp></sp>95",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:121",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:47ntqvy8e2a1": {
+    "structure": "BK_STRUCTURE:47ntqvy8e2a1",
+    "name": "Chalet Alpin du Tour  (FFCAM)",
+    "shortName": "Le Tour",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 20,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "Le chalet est complet à la réservation en ligne mais n'hésitez pas à nous appeler au 04 50 54 04 16.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletdutour<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>4<sp></sp>50<sp></sp>54<sp></sp><p4></p4><sp></sp><p1></p1>6%%Avant<sp></sp>ouverture:<sp></sp><p6></p6><sp></sp><p1></p1>6<sp></sp><p2></p2>4<sp></sp>50<sp></sp>7<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:47ntqvy8e2a1",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:65": {
+    "structure": "BK_STRUCTURE:65",
+    "name": "Refuge des Souffles  (FFCAM)",
+    "shortName": "Les Souffles",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "260",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 15,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé.\r\nSeul le refuge d'hiver est accessible.",
+    "completeInfo": "La réservation en ligne est complète sur cette date.\r\nVous pouvez vous inscrire sur la liste d'attente ou appeler le gardien directement au  04 92 55 22 91.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedessouffles<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>55<sp></sp><p2></p2><p2></p2><sp></sp>9<p1></p1>",
+    "maxDate": "2026-04-24",
+    "oid": "BK_STRUCTURE:65",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:25": {
+    "structure": "BK_STRUCTURE:25",
+    "name": "Refuge de Leschaux  (FFCAM)",
+    "shortName": "Leschaux",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "5",
+    "minDate": "2025-08-12",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "PAS DE GAZ, il y a couvertures, Merci de laisser le refuge propre et de descendre vos poubelles !",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeleschaux<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>6<sp></sp>36<sp></sp>95<sp></sp>3<p2></p2><sp></sp>64",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:25",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8l3ommd": {
+    "structure": "BK_STRUCTURE:xxx5u8l3ommd",
+    "name": "Refuge de Leschaux Non Gardé (FFCAM)",
+    "shortName": "Leschaux Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 4,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à 1 jour avant la date souhaitée, vous pouvez laisser votre adresse mail pour en être informé. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refuges<d></d>caf<d></d>chamonix<a></a><gg></gg><d></d><com></com>",
+    "phone": "<p6></p6><sp></sp>36<sp></sp>95<sp></sp>3<p2></p2><sp></sp>64",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8l3ommd",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:87": {
+    "structure": "BK_STRUCTURE:87",
+    "name": "Chalet de la Madone de Fenestre  (FFCAM)",
+    "shortName": "Madone de Fenestre",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||BOREON||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 56,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est gardé uniquement sur réservation à cette période. Vous pouvez nous contacter à notre domicile au 04 93 03 91 02.",
+    "completeInfo": "Le refuge est complet pendant cette période. N'hésitez pas à vous inscrire sur la liste d'attente ou contacter le gardien par téléphone au 04 93 02 83 19.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletmadonedefenestre<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p9></p9><sp></sp><p1></p1>7<sp></sp>89<sp></sp>58",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:87",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:98": {
+    "structure": "BK_STRUCTURE:98",
+    "name": "Chalet de Maljasset  (FFCAM)",
+    "shortName": "Maljasset",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 8,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Hors période de gardiennage, le refuge n'est pas accessible.",
+    "completeInfo": "Le refuge est complet à cette date, pour vous mettre en liste d'attente ou vous pouvez appeler directement le refuge au 04 92 31 55 42",
+    "fullWebInfo": "La réservation est complète à la vente en ligne, n'hésitez pas à nous contacter au refuge au 04 92 31 55 42",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletmaljasset<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>3<p1></p1><sp></sp>55<sp></sp>4<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:98",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:110": {
+    "structure": "BK_STRUCTURE:110",
+    "name": "Refuge du Maupas (FFCAM)",
+    "shortName": "Maupas",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 5,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est pas gardé à cette date. \r\nLe refuge d'hiver est accessible. Vous trouverez un dortoir de 30 places et la salle de restauration, le tout avec un peu de chauffage. \r\nMerci de respecter les lieux et de les laisser propre. Une contribution de 8€ par nuitée vous est demandée pour votre séjour. Vous trouverez une boîte au refuge ou une adresse où envoyer votre règlement. \r\nPassez un bon séjour!",
+    "completeInfo": "Le refuge est complet ce soir. \r\nVous pouvez me contacter au 07 87 32 37 62, au cas où il y aurait des désistements.",
+    "fullWebInfo": "Il ne reste plus de places ouvertes à la réservation en ligne. \r\nVous pouvez me contacter au 07 87 32 37 62, au cas où il resterait des places ouvertes à la réservation par téléphone.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedumaupas<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p7></p7><sp></sp>87<sp></sp>3<p2></p2><sp></sp>37<sp></sp>6<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:110",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:88": {
+    "structure": "BK_STRUCTURE:88",
+    "name": "Refuge des Merveilles  (FFCAM)",
+    "shortName": "Merveilles",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||BOREON||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 30,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période.",
+    "completeInfo": "Le refuge est complet pendant cette période. N'hésitez pas à vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedesmerveilles<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "Eté:<sp></sp><p9></p9><sp></sp>70<sp></sp><p3></p3><sp></sp>59<sp></sp><p2></p2>0",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:88",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:38": {
+    "structure": "BK_STRUCTURE:38",
+    "name": "Refuge du Mont Pourri  (FFCAM)",
+    "shortName": "Mont Pourri",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 8,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Refuge non gardé : vous y trouverez matelas, couvertures, oreillers,  vaisselles, casseroles, gazinière, poele à bois et bois. La fontaine extérieure fournit de l'eau  potable .Les nuitées, et les participations au gaz et au bois sons sont a payer dans le tronc ou par envoi postal.au gardien.",
+    "completeInfo": "Aucunes places disponibles à la réservation en ligne, mais il peut en rester auprès du gardien (04 790 790 43) suite à des annulations. Sinon, vous pouvez vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "Aucunes places disponibles à la réservation en ligne, mais il peut en rester auprès du gardien (04 790 790 43) suite à des annulations. Sinon, vous pouvez vous inscrire sur la liste d'attente",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedumontpourri<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p7></p7><sp></sp>90<sp></sp>43",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:38",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:60": {
+    "structure": "BK_STRUCTURE:60",
+    "name": "Refuge du Mont Thabor  (FFCAM)",
+    "shortName": "Mont Thabor",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 40,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est en mode Hors Gardiennage, aucune réservation est prise à l'avance.\r\nPour plus d'information, merci d'appeler le numéro du refuge ou de nous envoyer un mail.",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedumontthabor<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>77<sp></sp>49<sp></sp>9<p2></p2><sp></sp><p7></p7>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:60",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:90": {
+    "structure": "BK_STRUCTURE:90",
+    "name": "Refuge de Nice  (FFCAM)",
+    "shortName": "Nice",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||BOREON||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 54,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est gardé uniquement sur réservation à cette période. Renseignements au 06 61 97 59 38.",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedenice<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:90",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:70": {
+    "structure": "BK_STRUCTURE:70",
+    "name": "Refuge de l'Olan  (FFCAM)",
+    "shortName": "Olan",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 15,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "En dehors des périodes de gardiennage, vous pourrez profiter du refuge d'hiver (10 places). Vous y trouverez des matelas et des couvertures. \r\nUn tronc pour payer votre nuitée (8 euros).\r\nPour information il n'y a ni gaz ni chauffage au refuge d'hiver. \r\nMerci de respecter les lieux.\r\nEt, bonne montagne à vous !",
+    "completeInfo": "Merci de contacter le refuge de l'Olan  par téléphone au 06 07 66 43 25.",
+    "fullWebInfo": "Merci de contacter le refuge de l'Olan  par téléphone au 06 07 66 43 25.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedelolan<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p7></p7><sp></sp>66<sp></sp>43<sp></sp><p2></p2>5",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:70",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:117": {
+    "structure": "BK_STRUCTURE:117",
+    "name": "Refuge des Oulettes de Gaube  (FFCAM)",
+    "shortName": "Oulettes de Gaube",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 20,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Une partie hiver reste ouverte lorsque le refuge est non gardé. Vous y trouverez un dortoir, et un poêle avec du bois disponible pour se chauffer.",
+    "completeInfo": "Aie Aie Aie le refuge est complet ! Essayez à d'autres dates !",
+    "fullWebInfo": "Plus de place au refuge sur notre « stock Internet ». Appelez nous, il reste peut-être des places sur notre « stock Gardien» !",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeoulettesdegaube<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>(0)9<sp></sp>88<sp></sp><p1></p1>8<sp></sp>4<p1></p1><sp></sp>46<sp></sp>(Pas<sp></sp>de<sp></sp>réservation<sp></sp>par<sp></sp>mail,<sp></sp>merci)",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:117",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:17": {
+    "structure": "BK_STRUCTURE:17",
+    "name": "Refuge du Parmelan  (FFCAM)",
+    "shortName": "Parmelan",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Désolé, le refuge n'est pas gardé à cette date (vous pouvez consulter notre période d'ouverture sur la page d'accueil).",
+    "completeInfo": "Veuillez nous appelez directement au refuge (06 16 59 83 00) pour une réservation à cette date (il nous reste peut-être encore des places).",
+    "fullWebInfo": "Veuillez nous appelez directement au refuge (06 16 59 83 00) pour une réservation à cette date (il nous reste peut-être encore des places).",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeduparmelan<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p1></p1>6<sp></sp>59<sp></sp>83<sp></sp>00",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:17",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:84": {
+    "structure": "BK_STRUCTURE:84",
+    "name": "Refuge du Pavé  (FFCAM)",
+    "shortName": "Pavé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 99,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedupave<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>(0)9<sp></sp>88<sp></sp><p1></p1>8<sp></sp><p2></p2>0<sp></sp>96",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:84",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8mnoqrq": {
+    "structure": "BK_STRUCTURE:xxx5u8mnoqrq",
+    "name": "Refuge du Pavé Non Gardé (FFCAM)",
+    "shortName": "Pavé Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 6,
+    "maxPax": 16,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepasutiliserrefugedupave<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp><p2></p2>4<sp></sp>88<sp></sp><p3></p3>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8mnoqrq",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:50": {
+    "structure": "BK_STRUCTURE:50",
+    "name": "Refuge de Péclet-Polset",
+    "shortName": "Péclet-Polset",
+    "allowedOrigins": "||MSFFCAM||FFCAM||VANOISE||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 84,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est plus gardé à cette date, le refuge d'hiver est ouvert et accessible, il se trouve au rez de chaussé, sous la terrasse. Il comporte 16 place équipées de couvertures, un poêle à bois et du bois !  du gaz, de la vaisselle et des casseroles. Le prix est de 8.00 euros/pers à payer sur place dans le tronc.\r\nBonne randonnée",
+    "completeInfo": "Le refuge est complet à cette date, nous vous conseillons de si possible de modifier votre circuit, en cas d'impossibilité, vous pouvez vous inscrire sur la « liste d'attente » (en cas de libération de places vous serez avertis directement par mail. Attention, dans ce cas tous les inscrits seront avertis ,les places iront aux premiers à valider leur réservations en ligne.",
+    "fullWebInfo": "Le refuge est complet à cette date, nous vous conseillons de si possible de modifier votre circuit, en cas d'impossibilité, vous pouvez vous inscrire sur la « liste d'attente » (en cas de libération de places vous serez avertis directement par mail. Attention, dans ce cas tous les inscrits seront avertis ,les places iront aux premiers à valider leur réservations en ligne.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugepecletpolset<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>63<sp></sp>68<sp></sp>46<sp></sp>9<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:50",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8mon63z": {
+    "structure": "BK_STRUCTURE:xxx5u8mon63z",
+    "name": "Refuge de Péclet-Polset Non Gardé",
+    "shortName": "Péclet-Polset Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||VANOISE||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "90",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 6,
+    "maxPax": 16,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à la veille de la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à la veille de la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugepecletpolset<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>79<sp></sp><p8></p8><sp></sp>7<p2></p2><sp></sp><p1></p1>3",
+    "maxDate": "2025-11-05",
+    "oid": "BK_STRUCTURE:xxx5u8mon63z",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:79": {
+    "structure": "BK_STRUCTURE:79",
+    "name": "Refuge du Pelvoux  (FFCAM)",
+    "shortName": "Pelvoux",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 4,
+    "maxPax": 99,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est non gardé, pas de réservation possible. 10 places disponibles dans le dortoir d'hiver. Pas d'eau ni de gaz, quelques ustensiles de cuisine seulement.",
+    "completeInfo": "Complet à la réservation en ligne, n'hésitez pas à appeler au +33 (0)9 70 02 05 74  pour vérifier les disponibilités.",
+    "fullWebInfo": "Complet à la réservation en ligne, n'hésitez pas à appeler au +33 (0)9 70 02 05 74  pour vérifier les disponibilités.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedupelvoux<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>70<sp></sp>0<p2></p2><sp></sp><p5></p5><sp></sp>74",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:79",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:69": {
+    "structure": "BK_STRUCTURE:69",
+    "name": "Refuge du Pigeonnier  (FFCAM)",
+    "shortName": "Pigeonnier",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "270",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 11,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "20 places disponibles sans réservation",
+    "completeInfo": "Complet pour la réservation en ligne, mais n'hésitez pas à joindre le 04.92.55.27.82, pour les dernières places disponibles.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedupigeonnier<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>55<sp></sp><p2></p2>7<sp></sp>8<p2></p2>",
+    "maxDate": "2026-05-04",
+    "oid": "BK_STRUCTURE:69",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:4": {
+    "structure": "BK_STRUCTURE:4",
+    "name": "Chalet du Plain du Canon  (FFCAM)",
+    "shortName": "Plain du Canon",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Pour effectuer une réservation vous pouvez appeler le 06 70 35 63 17 ou envoyer une demande par mail à: chaletplainducanon@ffcam.fr.",
+    "completeInfo": "Liste d'attente à disposition",
+    "fullWebInfo": "Le refuge n'est pas encore adapté aux conformité liées à la crise sanitaire",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletplainducanon<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>70<sp></sp>35<sp></sp>63<sp></sp><p1></p1>7",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:4",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:36": {
+    "structure": "BK_STRUCTURE:36",
+    "name": "Chalet du Plan de la Lai  (FFCAM)",
+    "shortName": "Plan de la Lai",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 16,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletplandelalai<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "Période<sp></sp>gardée:<sp></sp><p4></p4><sp></sp>79<sp></sp>89<sp></sp><p7></p7><sp></sp>78%%Hors<sp></sp>gardiennage:<sp></sp><p7></p7><sp></sp>85<sp></sp>6<p1></p1><sp></sp><p1></p1>5<sp></sp><p1></p1>4",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:36",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:40": {
+    "structure": "BK_STRUCTURE:40",
+    "name": "Refuge du Plan des Gouilles  (FFCAM)",
+    "shortName": "Plan des Gouilles",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 40,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge contient 28 places, du bois, du gaz et de la vaisselle propre est mis à votre disposition. Le prix de la nuitée est de 8 € par personne et par nuit à mettre dans le tronc prévu à cet effet.\r\nMerci de laisser le refuge propre, de redescendre vos déchets et de bien pensez à fermer à clefs volets et fenêtres et de sortir par le dortoir qui se trouve à l'étage.",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeplandesgouilles<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp><p8></p8><sp></sp>98<sp></sp><p1></p1>9<sp></sp>0<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:40",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8mueov1": {
+    "structure": "BK_STRUCTURE:xxx5u8mueov1",
+    "name": "Refuge du Plan des Gouilles Non Gardé (FFCAM)",
+    "shortName": "Plan des Gouilles Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "90",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 6,
+    "maxPax": 28,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à trois jours avant la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "fullWebInfo": "Désolé, le refuge d'hiver est complet à la date désirée. Les désistements étant possibles jusqu'à trois jours avant la date souhaitée, vous pouvez laisser votre adresse mail pour recevoir un e-mail s'il y a des désistements. Vous devrez alors vous reconnecter sur le présent site.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepasutiliser<a></a>caf-vanoise-tarentaise<d></d><com></com>",
+    "phone": "<p6></p6><sp></sp><p8></p8><sp></sp>98<sp></sp><p1></p1>9<sp></sp>0<p2></p2>",
+    "maxDate": "2025-11-05",
+    "oid": "BK_STRUCTURE:xxx5u8mueov1",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:20": {
+    "structure": "BK_STRUCTURE:20",
+    "name": "Refuge de Platé  (FFCAM)",
+    "shortName": "Platé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 10,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Hors période de gardiennage, le refuge d'hiver est ouvert.",
+    "completeInfo": "Le refuge est complet à cette date, vous pouvez tout de même appeler le refuge en cas de désistement au 06 63 62 42 90.",
+    "fullWebInfo": "Le refuge est complet à cette date, vous pouvez tout de même appeler le refuge en cas de désistement au 06 63 62 42 90.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedeplate<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>63<sp></sp>6<p2></p2><sp></sp>4<p2></p2><sp></sp>90",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:20",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:18": {
+    "structure": "BK_STRUCTURE:18",
+    "name": "Refuge de La Pointe Percée - Gramusset (FFCAM)",
+    "shortName": "Pointe Percée - Gramusset",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 14,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé, veuillez consulter les informations concernant cette période dans la rubrique accueil.",
+    "completeInfo": "Bonjour, \r\nLe refuge est complet! N'hésitez pas à vous inscrire en liste d'attente afin de pouvoir être informé de désistements et ainsi disposer d'une place. \r\nÀ très bientôt à la Pointe Percée!",
+    "fullWebInfo": "Bonjour, \r\nLe refuge est complet! N'hésitez pas à vous inscrire en liste d'attente afin de pouvoir être informé de désistements et ainsi disposer d'une place. \r\nÀ très bientôt à la Pointe Percée!",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugelapointepercee<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>58<sp></sp><p1></p1>7<sp></sp><p5></p5><sp></sp>98",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:18",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8nnte7d": {
+    "structure": "BK_STRUCTURE:xxx5u8nnte7d",
+    "name": "Refuge de La Pointe Percée - Gramusset Non Gardé (FFCAM)",
+    "shortName": "Pointe Percée - Gramusset Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 99,
+    "maxPax": 16,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Le refuge est complet. Inscrivez-vous sur la liste d'attente pour être informé en cas d'annulation.",
+    "fullWebInfo": "Le refuge est complet. Inscrivez-vous sur la liste d'attente pour être informé en cas d'annulation.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugelapointepercee<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>37<sp></sp>67<sp></sp><p2></p2><p2></p2><sp></sp>6<p2></p2>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8nnte7d",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:106": {
+    "structure": "BK_STRUCTURE:106",
+    "name": "Refuge de Pombie  (FFCAM)",
+    "shortName": "Pombie",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 15,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Voir les conditions sur http://refugedepombie.ffcam.fr",
+    "completeInfo": "Appeler le refuge +33(0)972192380 de juin a septembre\r\nPar mail refugedepombie@ffcam.fr de octobre a Mai",
+    "fullWebInfo": "Appeler le refuge +33(0)972192380 de juin a septembre\r\nPar mail refugedepombie@ffcam.fr de octobre a Mai",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedepombie<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "+33<sp></sp>9<sp></sp>7<p2></p2><sp></sp><p1></p1>9<sp></sp><p2></p2>3<sp></sp>80<sp></sp>avant<sp></sp><p1></p1>8h30",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:106",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:AUTRES",
+        "title": "Autres"
+      },
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:109": {
+    "structure": "BK_STRUCTURE:109",
+    "name": "Refuge du Portillon  (FFCAM)",
+    "shortName": "Portillon",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est actuellement non gardé. La partie hiver est disponible hors réservation. (30 places, couvertures, oreillers, salle commune avec électricité et chauffage)",
+    "completeInfo": "Toutes les places disponibles à la réservation en ligne sont attribuées. Merci de vous inscrire sur liste d'attente en remplissant le formulaire ci-dessous.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeduportillon<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p9></p9><sp></sp>88<sp></sp>66<sp></sp>99<sp></sp>67",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:109",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:61": {
+    "structure": "BK_STRUCTURE:61",
+    "name": "Refuge du Pré la Chaumette  (FFCAM)",
+    "shortName": "Pré la Chaumette",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 9,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugepredelachaumette<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>55<sp></sp>95<sp></sp>34",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:61",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:37": {
+    "structure": "BK_STRUCTURE:37",
+    "name": "Refuge de Presset  (FFCAM)",
+    "shortName": "Presset",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 30,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé à cette date, il n'y a pas de réservation officielle.\r\nToutefois il est conseillé de contacter la gardienne pour les samedis, veilles de jour férié\r\net période de vacances scolaires afin d'éviter la surfréquentation.",
+    "completeInfo": "Le refuge est complet à cette date, il est possible de s'inscrire sur liste d'attente. Vous\r\nserez alors automatiquement prévenu par mail si des places se libèrent ; les plus réactifs\r\nseront servis.",
+    "fullWebInfo": "Le refuge est complet à cette date, il est possible de s'inscrire sur liste d'attente. Vous\r\nserez alors automatiquement prévenu par mail si des places se libèrent ; les plus réactifs\r\nseront servis.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedepresset<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>87<sp></sp>54<sp></sp><p9></p9><sp></sp><p1></p1>8",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:37",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8xp8y6e": {
+    "structure": "BK_STRUCTURE:xxx5u8xp8y6e",
+    "name": "Refuge de Presset Non Gardé (FFCAM)",
+    "shortName": "Presset Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 7,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepas utiliser<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>87<sp></sp>54<sp></sp><p9></p9><sp></sp><p1></p1>8%%<p9></p9><sp></sp>88<sp></sp><p1></p1>8<sp></sp>39<sp></sp>89",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8xp8y6e",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:75": {
+    "structure": "BK_STRUCTURE:75",
+    "name": "Refuge du Promontoire  (FFCAM)",
+    "shortName": "Promontoire",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 6,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge n'est plus gardé. Il reste à votre disposition le refuge d'hiver (24 places). Prévoir un réchaud et du gaz. Sur place vous aurez matelas et couettes. Il n'y a pas de chauffage. Informations auprès des gardiens 04 76 51 90 31 et sur le site www.refugedupromontoire.com",
+    "completeInfo": "Les places allouées à la réservation en ligne sont toutes occupées. Mais la réservation est ENCORE POSSIBLE au 04 76 80 51 67 (refuge).",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedupromontoire<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>76<sp></sp>80<sp></sp>5<p1></p1><sp></sp>67%%Hors<sp></sp>saison<sp></sp><p6></p6><sp></sp><p1></p1>9<sp></sp>70<sp></sp><p1></p1>3<sp></sp>35<sp></sp>(contact<sp></sp>WhatsApp<sp></sp>possible<sp></sp>en<sp></sp>saison)",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:75",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:93": {
+    "structure": "BK_STRUCTURE:93",
+    "name": "Refuge de Rabuons  (FFCAM)",
+    "shortName": "Rabuons",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 25,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période.",
+    "completeInfo": "Le refuge est complet pendant cette période. N'hésitez pas à vous inscrire sur la liste d'attente.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugederabuons<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>93<sp></sp><p2></p2>3<sp></sp><p4></p4><sp></sp><p1></p1><p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:93",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:11": {
+    "structure": "BK_STRUCTURE:11",
+    "name": "Chalet-refuge du Ratou  (FFCAM)",
+    "shortName": "Ratou",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "200",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 30,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "",
+    "completeInfo": "Refuge complet",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletleratou<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-02-23",
+    "oid": "BK_STRUCTURE:11",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:103": {
+    "structure": "BK_STRUCTURE:103",
+    "name": "Chalet de Saint Guilhem le Désert  (FFCAM)",
+    "shortName": "Saint-Guilhem-le-Désert",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 15,
+    "maxPax": 18,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "Le gîte est complet, inscrivez-vous sur la liste d'attente ou contactez la gardienne",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugestguilhemledesert<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>67<sp></sp><p2></p2>9<sp></sp>39<sp></sp>98",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:103",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:101": {
+    "structure": "BK_STRUCTURE:101",
+    "name": "Chalet du Sancy  (FFCAM)",
+    "shortName": "Sancy",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletdusancy<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>73<sp></sp><p2></p2><p2></p2><sp></sp>34<sp></sp>8<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:101",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:78": {
+    "structure": "BK_STRUCTURE:78",
+    "name": "Refuge du Sélé  (FFCAM)",
+    "shortName": "Sélé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 6,
+    "maxPax": 18,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé. Vous pouvez vous rendre au refuge d'hiver du Sélé, en gestion autonome. Merci de prendre soin de ce lieu.",
+    "completeInfo": "Toutes les places sont déjà réservées pour le jour demandé. Vous pouvez soit décaler votre séjour, à une date disponible, soit vous inscrire sur liste d'attente qui vous tiendra informé dès qu'une place sera libérée.",
+    "fullWebInfo": "Toutes les places disponibles à la réservation en ligne sont réservées. Appelez nous au refuge, il reste peut-être des places!",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedusele<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp><p2></p2>3<sp></sp>39<sp></sp>49",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:78",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      },
+      {
+        "oid": "BK_PRODUCTCATEGORY:RESTAURATION",
+        "title": "Restauration"
+      }
+    ]
+  },
+  "BK_STRUCTURE:80": {
+    "structure": "BK_STRUCTURE:80",
+    "name": "Refuge de Temple Ecrins  (FFCAM)",
+    "shortName": "Temple Ecrins",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 20,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge n'est pas gardé. Un local reste accessible (20 lits + matelas et couvertures). Pas de gaz, pas de système de chauffage, pas de système d'éclairage et pas d'eau courante. Informations auprès de la gardienne au 06 86 01 52 49",
+    "completeInfo": "Les places allouées à la réservation en ligne sont toutes réservées. La réservation est encore possible par téléphone au 04 76 79 08 28",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugetempleecrins<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>76<sp></sp>79<sp></sp><p8></p8><sp></sp><p2></p2>8%%<p9></p9><sp></sp>88<sp></sp><p2></p2>8<sp></sp><p1></p1>9<sp></sp><p8></p8>%%en<sp></sp>dehors<sp></sp>des<sp></sp>périodes<sp></sp>d'ouverture:<sp></sp><p6></p6><sp></sp>86<sp></sp>0<p1></p1><sp></sp>5<p2></p2><sp></sp>49",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:80",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:2": {
+    "structure": "BK_STRUCTURE:2",
+    "name": "Chalet-refuge des Trois-Fours  (FFCAM)",
+    "shortName": "Trois Fours",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 20,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le centre n'est pas gardé sur cette période",
+    "completeInfo": "Le refuge est complet. N'hésitez pas à vous inscrire sur la liste d'attente, vous serez averti si des places se libèrent et vous pourrez alors faire votre réservation.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletrefuge3fours<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p3></p3><sp></sp>89<sp></sp>77<sp></sp>3<p2></p2><sp></sp>59",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:2",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:9": {
+    "structure": "BK_STRUCTURE:9",
+    "name": "Chalet des Tuffes  (FFCAM)",
+    "shortName": "Tuffes",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "4",
+    "minDate": "2025-08-11",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 7,
+    "maxPax": 6,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le chalet est fermé. \r\nMerci de nous laisser un courriel, nous vous contacterons dès notre retour.",
+    "completeInfo": "Le Centre est complet pendant cette période.\r\nUn désistement est toujours possible, donc appelez moi au 06.14.79.93.51",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CENTRE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletlestuffes<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p3></p3><sp></sp>84<sp></sp>60<sp></sp>0<p2></p2><sp></sp>95%%<p6></p6><sp></sp>30<sp></sp>46<sp></sp>88<sp></sp>46",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:9",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:62": {
+    "structure": "BK_STRUCTURE:62",
+    "name": "Refuge de Vallonpierre  (FFCAM)",
+    "shortName": "Vallonpierre",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "3",
+    "minDate": "2025-08-10",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 99,
+    "maxPax": 15,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge n'est actuellement pas gardé mais il est accessible. A  votre disposition : 19 places de couchages, du gaz, du matériel de cuisine et un poêle à bois. La redevance due pour une nuitée est de 8 euros par personne (tronc dans le refuge). En hiver, l'accès est très difficile et peut être soumis à un risque fort d'avalanche. Pour tous renseignements, n'hésitez pas à nos appeler au 04 92 55 27 81",
+    "completeInfo": "Appelez nous au 04 92 55 27 81, nous pouvons vous proposez des solutions pour venir dans notre belle région.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugevallonpierre<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>55<sp></sp><p2></p2>7<sp></sp>8<p1></p1>",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:62",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:89": {
+    "structure": "BK_STRUCTURE:89",
+    "name": "Refuge de la Valmasque  (FFCAM)",
+    "shortName": "Valmasque",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||BOREON||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 3,
+    "maxPax": 20,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé pendant cette période.",
+    "completeInfo": "Merci de vous inscrire sur la liste d'attente",
+    "fullWebInfo": "Merci de contacter la gardienne par mail",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedevalmasque<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:89",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:104": {
+    "structure": "BK_STRUCTURE:104",
+    "name": "Chalet de Vauchignon  (FFCAM)",
+    "shortName": "Vauchignon",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 7,
+    "maxPax": 24,
+    "showAvailable": "1",
+    "waitingList": "2",
+    "unguardedInfo": "Le site de VAUCHIGNON n est pas gardé .",
+    "completeInfo": "Complet",
+    "fullWebInfo": "Complet",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:CHALET",
+    "groupement": "BK_GROUP:CAF",
+    "email": "chaletvauchignon<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:104",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:108": {
+    "structure": "BK_STRUCTURE:108",
+    "name": "Refuge de Vénasque  (FFCAM)",
+    "shortName": "Vénasque",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 8,
+    "showAvailable": "2",
+    "waitingList": "1",
+    "unguardedInfo": "Le refuge est non gardé à la date souhaitée. Une partie du refuge reste donc ouverte pour vous abriter, mais personne n'est sur place pour vous accueillir : vous devez être en totale autonomie (matériel, équipement, nourriture).",
+    "completeInfo": "Le refuge est complet à la date souhaitée. Nous vous invitons à rechercher une autre date, où à vous inscrire sur liste d'attente (attention, pas de garantie d'avoir une place dans ce cas).",
+    "fullWebInfo": "Le refuge est presque complet : nous vous invitons à appeler au refuge pour voir si des places sont disponibles.",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedevenasque<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "En<sp></sp>gardiennage<sp></sp>:<sp></sp><p9></p9><sp></sp>87<sp></sp>88<sp></sp><p1></p1>4<sp></sp>69%%hors<sp></sp>gardiennage<sp></sp>:<sp></sp><p6></p6><sp></sp>89<sp></sp>49<sp></sp>8<p2></p2><sp></sp><p2></p2>7",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:108",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:xxx5u8xycgku": {
+    "structure": "BK_STRUCTURE:xxx5u8xycgku",
+    "name": "Refuge de Vénasque Non Gardé (FFCAM)",
+    "shortName": "Vénasque Non Gardé",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||ENTREPYRPYRENEES||",
+    "resaLimit": "0",
+    "minDate": "2025-08-07",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "1",
+    "maxDays": 99,
+    "maxPax": 12,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "",
+    "completeInfo": "",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGEHG_withBooking",
+    "groupement": "BK_GROUP:CAF",
+    "email": "nepasutiliser<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p5></p5><sp></sp>6<p1></p1><sp></sp>79<sp></sp><p2></p2>6<sp></sp>46",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:xxx5u8xycgku",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:95": {
+    "structure": "BK_STRUCTURE:95",
+    "name": "Refuge des Lacs de Vens  (FFCAM)",
+    "shortName": "Vens",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "2",
+    "minDate": "2025-08-09",
+    "bookingDelay": "365",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 5,
+    "maxPax": 35,
+    "showAvailable": "1",
+    "waitingList": "1",
+    "unguardedInfo": "Nous contacter par mail",
+    "completeInfo": "Possibilité de s'inscrire sur la liste d'attente",
+    "fullWebInfo": "Nous contacter par mail ou par téléphone",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugedevens<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p6></p6><sp></sp>37<sp></sp>67<sp></sp>9<p1></p1><sp></sp>74",
+    "maxDate": "2026-08-07",
+    "oid": "BK_STRUCTURE:95",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  },
+  "BK_STRUCTURE:96": {
+    "structure": "BK_STRUCTURE:96",
+    "name": "Refuge du Viso  (FFCAM)",
+    "shortName": "Viso",
+    "allowedOrigins": "||MSFFCAM||FFCAM||ITFFCAM||",
+    "resaLimit": "1",
+    "minDate": "2025-08-08",
+    "bookingDelay": "300",
+    "salesChannel": [
+      "BK_SALESCHANNEL:DIRECT",
+      "BK_SALESCHANNEL:WEB"
+    ],
+    "openingHour": "00:00:00",
+    "unguarded": "2",
+    "maxDays": 2,
+    "maxPax": 40,
+    "showAvailable": "2",
+    "waitingList": "2",
+    "unguardedInfo": "Le refuge est actuellement non gardé.",
+    "completeInfo": "Désolé, le refuge est complet pour la date souhaitée.",
+    "fullWebInfo": "",
+    "typeMontBlanc": "2",
+    "structureType": "BK_STRUCTURECATEGORY:REFUGE",
+    "groupement": "BK_GROUP:CAF",
+    "email": "refugeduviso<a></a><ff></ff><d></d><fr></fr>",
+    "phone": "<p4></p4><sp></sp>9<p2></p2><sp></sp>46<sp></sp>8<p1></p1><sp></sp>8<p1></p1>",
+    "maxDate": "2026-06-03",
+    "oid": "BK_STRUCTURE:96",
+    "productsCategories": [
+      {
+        "oid": "BK_PRODUCTCATEGORY:NUITEE",
+        "title": "Dortoirs"
+      }
+    ]
+  }
+}

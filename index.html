@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FFCAM Refuges Viewer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body { margin: 0; font-family: sans-serif; display: flex; flex-direction: column; height: 100vh; }
+    #header { padding: 10px; background: #eee; display: flex; justify-content: space-between; align-items: center; }
+    #main { display: flex; flex: 1; }
+    #map { width: 60%; height: 100%; }
+    #sidebar { width: 40%; display: flex; flex-direction: column; }
+    #refuge-table { flex: 1; overflow: auto; }
+    #info-panel { height: 200px; overflow: auto; border-top: 1px solid #ccc; padding: 10px; background: #f9f9f9; }
+    .available { color: green; font-weight: bold; }
+    .unavailable { color: red; font-weight: bold; }
+    .unknown { color: gray; font-style: italic; font-weight: bold; }
+    #controls { display: flex; gap: 10px; align-items: center; }
+    #reset-btn { padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div id="controls">
+      <h2>🏔 FFCAM Refuges Viewer</h2>
+      <button id="reset-btn">🔁 Reset View</button>
+    </div>
+    <div>
+      <label for="date-picker">Check availability for: </label>
+      <input type="date" id="date-picker" value="2025-08-13" />
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="map"></div>
+    <div id="sidebar">
+      <div id="refuge-table"></div>
+      <div id="info-panel">
+        <p>Select a refuge to view more details.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/js/tabulator.min.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    let allRefuges = [];
+    let currentDate = "2025-08-13";
+    let table, map, markers = [];
+
+    const infoPanel = document.getElementById("info-panel");
+    const dateInput = document.getElementById("date-picker");
+    const resetBtn = document.getElementById("reset-btn");
+
+    // Normalize name (case-insensitive, remove special chars/spaces)
+    const normalize = str =>
+      str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+
+    function formatAvailability(val) {
+      if (val === null || val === undefined) return `<span class="unknown">?</span>`;
+      return val > 0 ? `<span class="available">${val}</span>` : `<span class="unavailable">0</span>`;
+    }
+
+    function showInfo(refuge) {
+      const raw = refuge.availability?.[currentDate];
+      const avail = (raw === undefined || raw === null) ? "?" : raw;
+      infoPanel.innerHTML = `
+        <h3>${refuge.name}</h3>
+        <p><strong>Altitude:</strong> ${refuge.altitude_m || "?"} m</p>
+        <p><strong>Capacity:</strong> ${refuge.places || "?"} places</p>
+        <p><strong>Gardien(s):</strong> ${refuge.gardien || "Non renseigné"}</p>
+        <p><strong>Available on ${currentDate}:</strong> ${avail}</p>
+        ${refuge.description ? `<p>${refuge.description}</p>` : ""}
+        ${refuge.urls?.map(url => `<a href="${url}" target="_blank">${url}</a>`).join("<br>") || ""}
+      `;
+    }
+
+    function updateTableAndMap() {
+      const bounds = map.getBounds();
+
+      const filtered = allRefuges.map(r => {
+        const raw = r.availability?.[currentDate];
+        return {
+          ...r,
+          available_places: (raw === undefined) ? null : raw
+        };
+      }).filter(r => r.lat && r.lng && bounds.contains([r.lat, r.lng]));
+
+      table.setData(filtered);
+
+      markers.forEach(({ marker, refuge }) => {
+        const val = refuge.availability?.[currentDate];
+        const content = `<strong>${refuge.name}</strong><br>Available on ${currentDate}: ${val ?? "?"}`;
+        marker.setPopupContent(content);
+      });
+    }
+
+    Promise.all([
+      fetch("merged_refuges.json").then(r => r.json()),
+      fetch("merged_availability_refuges.json").then(r => r.json())
+    ]).then(([metaData, availabilityData]) => {
+      // Index metadata by normalized name
+      const metaMap = {};
+      metaData.forEach(ref => {
+        const norm = normalize(ref.name);
+        if (norm) metaMap[norm] = ref;
+      });
+
+      // Merge metadata into availability data
+      allRefuges = availabilityData.map(ref => {
+        const norm = normalize(ref.name);
+        const meta = metaMap[norm] || {};
+        return {
+          ...ref,
+          description: meta.description || "",
+          urls: meta.urls || [],
+          gardien: meta.gardien || "",
+          altitude_m: meta.altitude_m || ref.altitude_m || null,
+          places: meta.places || ref.places || null
+        };
+      });
+
+      // Init map
+      map = L.map("map").setView([45.5, 6.5], 8);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: "© OpenStreetMap contributors"
+      }).addTo(map);
+
+      // Add markers
+      markers = allRefuges.map(refuge => {
+        if (refuge.lat && refuge.lng) {
+          const marker = L.marker([refuge.lat, refuge.lng])
+            .addTo(map)
+            .bindPopup("");
+
+          marker.on("click", () => {
+            showInfo(refuge);
+            table.clearFilter();
+            table.setFilter("structure", "=", refuge.structure);
+          });
+
+          return { marker, refuge };
+        }
+        return null;
+      }).filter(Boolean);
+
+      // Init table
+      table = new Tabulator("#refuge-table", {
+        layout: "fitColumns",
+        pagination: "local",
+        paginationSize: 10,
+        height: "100%",
+        columns: [
+          { title: "Refuge", field: "name", headerFilter: "input", widthGrow: 2 },
+          { title: "Altitude", field: "altitude_m", hozAlign: "center", width: 90 },
+          { title: "Places", field: "places", hozAlign: "center", width: 80 },
+          {
+            title: "Available",
+            field: "available_places",
+            hozAlign: "center",
+            width: 110,
+            formatter: cell => formatAvailability(cell.getValue())
+          }
+        ],
+        rowClick: function(e, row) {
+          const refuge = row.getData();
+          if (refuge.lat && refuge.lng) {
+            map.setView([refuge.lat, refuge.lng], 13);
+            showInfo(refuge);
+            table.clearFilter();
+            table.setFilter("structure", "=", refuge.structure);
+          }
+        }
+      });
+
+      // Reset view button
+      resetBtn.addEventListener("click", () => {
+        table.clearFilter();
+        updateTableAndMap();
+        infoPanel.innerHTML = `<p>Select a refuge to view more details.</p>`;
+      });
+
+      map.on("click", () => {
+        table.clearFilter();
+        updateTableAndMap();
+        infoPanel.innerHTML = `<p>Select a refuge to view more details.</p>`;
+      });
+
+      map.on("moveend", updateTableAndMap);
+
+      dateInput.addEventListener("change", e => {
+        currentDate = e.target.value;
+        updateTableAndMap();
+      });
+
+      updateTableAndMap();
+    });
+  </script>
+</body>
+</html>
