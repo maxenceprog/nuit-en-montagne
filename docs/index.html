@@ -2,299 +2,62 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <title>FFCAM Refuges Viewer</title>
-  <link href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-    }
 
-    #header {
-      padding: 10px;
-      background: #eee;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    #main {
-      display: flex;
-      flex: 1;
-    }
+  <!-- Content Security Policy
+       - Limits script/style sources to self and the (trusted) CDNs used below.
+       - If you self-host the libraries, remove the CDN hosts from this list.
+       - For production, consider setting CSP via HTTP headers (more secure).
+  -->
+  <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self';
+          script-src 'self' https://cdn.jsdelivr.net https://unpkg.com;
+          style-src  'self' https://cdn.jsdelivr.net https://unpkg.com;
+          img-src    'self' data: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://unpkg.com/leaflet@1.9.4/dist/images/ https://raw.githubusercontent.com;
+          connect-src 'self';
+        ">
+  <!-- External styles (CDN). Consider adding Subresource Integrity (SRI) attributes with crossorigin -->
+  <link href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" crossorigin="anonymous" />
 
-    #map {
-      width: 60%;
-      height: 100%;
-    }
-
-    #sidebar {
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      flex: 1 1 0%;
-      /* Fill available space */
-      height: 100%;
-    }
-
-    .available {
-      color: green;
-      font-weight: bold;
-    }
-
-    .unavailable {
-      color: red;
-      font-weight: bold;
-    }
-
-    .unknown {
-      color: gray;
-      font-style: italic;
-      font-weight: bold;
-    }
-
-    #controls {
-      display: flex;
-      gap: 10px;
-      align-items: center;
-    }
-
-
-    .tabulator-cell * {
-      pointer-events: none;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <div id="header">
-    <div id="controls">
+    <div id="controls" aria-hidden="false">
       <h2>🏔 FFCAM Refuges Viewer</h2>
     </div>
+
     <div>
-      <label for="date-picker">Check availability for: </label>
-      <input type="date" id="date-picker" value="2025-08-13" />
+      <label for="date-picker">Check availability for:</label>
+      <input type="date" id="date-picker" aria-label="Check availability date" />
     </div>
   </div>
 
   <div id="main">
-    <div id="map"></div>
+    <div id="map" role="region" aria-label="Map of refuges"></div>
+
     <div id="sidebar">
-      <div id="refuge-table"></div>
-      <div id="info-panel">
+      <div id="refuge-table" aria-label="Refuges table"></div>
+      <div id="info-panel" aria-live="polite">
         <p>Select a refuge to view more details.</p>
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/js/tabulator.min.js"></script>
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script>
-    let allRefuges = [];
-    let currentDate = "2025-08-13";
-    let table, map, markers = [];
+  <!-- External JS libs (deferred). Add SRI attributes for production when you have the hashes -->
+  <script src="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/js/tabulator.min.js" defer
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer crossorigin="anonymous"></script>
 
-    const infoPanel = document.getElementById("info-panel");
-    const dateInput = document.getElementById("date-picker");
-
-    // ---------------------- Constants ----------------------
-    const normalize = str =>
-      str.toLowerCase().normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]/g, "");
-
-    const greenIcon = L.icon({
-      iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-      iconSize: [25, 41],
-      iconAnchor: [12, 41],
-      popupAnchor: [1, -34],
-      shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
-    });
-
-    const redIcon = L.icon({
-      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
-      iconSize: [25, 41],
-      iconAnchor: [12, 41],
-      popupAnchor: [1, -34],
-      shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png'
-    });
-
-    // ---------------------- Utility Functions ----------------------
-    function formatAvailability(val) {
-      if (val === null || val === undefined) return `<span class="unknown">?</span>`;
-      return val > 0
-        ? `<span class="available">${val}</span>`
-        : `<span class="unavailable">0</span>`;
-    }
-
-    function showInfo(refuge) {
-      const raw = refuge.availability?.[currentDate];
-      const avail = (raw === undefined || raw === null) ? "?" : raw;
-      infoPanel.innerHTML = `
-      <h3>${refuge.name}</h3>
-      <p><strong>Altitude:</strong> ${refuge.altitude_m || "?"} m</p>
-      <p><strong>Capacity:</strong> ${refuge.places || "?"} places</p>
-      <p><strong>Gardien(s):</strong> ${refuge.gardien || "Non renseigné"}</p>
-      <p><strong>Available on ${currentDate}:</strong> ${avail}</p>
-      ${refuge.description ? `<p>${refuge.description}</p>` : ""}
-      ${refuge.urls?.map(url => `<a href="${url}" target="_blank">${url}</a>`).join("<br>") || ""}
-    `;
-    }
-
-    function resetView() {
-      table.clearFilter();
-      updateTableAndMap();
-      infoPanel.innerHTML = `<p>Select a refuge to view more details.</p>`;
-    }
-
-    // ---------------------- Main Update ----------------------
-    function updateTableAndMap() {
-      const bounds = map.getBounds();
-
-      const filtered = allRefuges.map(r => {
-        const raw = r.availability?.[currentDate];
-        return {
-          ...r,
-          available_places: (raw === undefined) ? null : raw
-        };
-      }).filter(r => r.lat && r.lng && bounds.contains([r.lat, r.lng]));
-
-      table.setData(filtered);
-
-      markers.forEach(({ marker, refuge }) => {
-        const raw = refuge.availability?.[currentDate];
-        marker.setIcon((raw > 0) ? greenIcon : redIcon);
-        marker.setPopupContent(`<strong>${refuge.name}</strong><br>Available on ${currentDate}: ${raw ?? "?"}`);
-      });
-    }
-
-    // ---------------------- Init Functions ----------------------
-    function initMap() {
-
-
-      const topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenTopoMap contributors, © OpenStreetMap contributors',
-        maxZoom: 17
-      });
-      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      });
-      const baseLayers = {
-        "OpenStreetMap": osm,
-        "Topographic": topo,
-      };
-
-      map = L.map('map', {
-        center: [45.5, 6.5],
-        zoom: 8,
-        layers: [topo]
-      });
-
-
-      L.control.layers(baseLayers).addTo(map);
-
-      map.on("popupclose", resetView);
-      map.on("click", resetView);
-      map.on("moveend", updateTableAndMap);
-    }
-
-    function initTable() {
-      table = new Tabulator("#refuge-table", {
-        layout: "fitColumns",
-        pagination: "local",
-        paginationSize: 10,
-        columns: [
-          { title: "Refuge", field: "name", headerFilter: "input", widthGrow: 2 },
-          { title: "Altitude", field: "altitude_m", hozAlign: "center", width: 90 },
-          { title: "Places", field: "places", hozAlign: "center", width: 80 },
-          {
-            title: "Available",
-            field: "available_places",
-            hozAlign: "center",
-            width: 110,
-            formatter: cell => formatAvailability(cell.getValue())
-          }
-        ],
-      });
-      // Bind rowClick only after the table is fully built
-      table.on("tableBuilt", function () {
-        table.on("rowClick", (e, row) => {
-          const refuge = row.getData();
-          if (refuge.lat && refuge.lng) {
-            showInfo(refuge);
-            table.clearFilter();
-            table.setFilter("structure", "=", refuge.structure);
-
-            const markerObj = markers.find(m =>
-              m.refuge.lat === refuge.lat && m.refuge.lng === refuge.lng
-            );
-            if (markerObj) markerObj.marker.openPopup();
-          }
-        });
-      });
-    }
-
-    function initMarkers() {
-      markers = allRefuges.map(refuge => {
-        if (!refuge.lat || !refuge.lng) return null;
-
-        const marker = L.marker([refuge.lat, refuge.lng])
-          .addTo(map)
-          .bindPopup("");
-
-        marker.on("click", () => {
-          showInfo(refuge);
-          table.clearFilter();
-          table.setFilter("structure", "=", refuge.structure);
-        });
-
-        return { marker, refuge };
-      }).filter(Boolean);
-    }
-
-    // ---------------------- Data Loading ----------------------
-    Promise.all([
-      fetch("refuges.json").then(r => r.json()),
-      fetch("refuge_availabilities.json").then(r => r.json())
-    ]).then(([metaData, availabilityData]) => {
-      const metaMap = {};
-      metaData.forEach(ref => {
-        const norm = normalize(ref.name);
-        if (norm) metaMap[norm] = ref;
-      });
-
-      allRefuges = availabilityData.map(ref => {
-        const norm = normalize(ref.name);
-        const meta = metaMap[norm] || {};
-        return {
-          ...ref,
-          lat: meta.lat || null,
-          lng: meta.lng || null,
-          description: meta.description || "",
-          urls: meta.urls || [],
-          gardien: meta.gardien || "",
-          altitude_m: meta.altitude_m || ref.altitude_m || null,
-          places: meta.places || ref.places || null
-        };
-      });
-
-      initMap();
-      initTable();
-      initMarkers();
-      updateTableAndMap();
-    });
-
-    // ---------------------- Event Listeners ----------------------
-    dateInput.addEventListener("change", e => {
-      currentDate = e.target.value;
-      updateTableAndMap();
-    });
-  </script>
+  <!-- Your app script (deferred). This will run after DOM + deferred libs -->
+  <script src="index.js" defer></script>
 </body>
 
 </html>
