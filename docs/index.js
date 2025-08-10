@@ -1,5 +1,6 @@
 let allRefuges = []
-let currentDate = '2025-08-13'
+let currentDate = getCurrentDate()
+
 let table,
   map,
   markers = []
@@ -7,7 +8,6 @@ let table,
 const infoPanel = document.getElementById('info-panel')
 const dateInput = document.getElementById('date-picker')
 
-// ---------------------- Security Helpers ----------------------
 function escapeHTML (str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -17,15 +17,18 @@ function escapeHTML (str) {
     .replace(/'/g, '&#039;')
 }
 
-function isSafeHttpUrl (url) {
-  try {
-    const u = new URL(url, window.location.href)
-    return u.protocol === 'http:' || u.protocol === 'https:'
-  } catch {
-    return false
-  }
-}
+function getCurrentDate () {
+  let today = new Date()
+  let formatter = new Intl.DateTimeFormat('fr-FR', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    timeZone: 'Europe/Paris'
+  })
 
+  let [day, month, year] = formatter.format(today).split('/')
+  return `${year}-${month}-${day}`
+}
 // ---------------------- Constants ----------------------
 const normalize = str =>
   str
@@ -65,8 +68,7 @@ function showInfo (refuge) {
 
   let urlsHTML = ''
   if (Array.isArray(refuge.urls)) {
-    urlsHTML = refuge.urls
-      .filter(isSafeHttpUrl)
+    urlsHTML = refuge.url
       .map(
         url =>
           `<a href="${escapeHTML(
