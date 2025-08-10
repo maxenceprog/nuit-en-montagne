@@ -68,7 +68,7 @@ function showInfo (refuge) {
 
   let urlsHTML = ''
   if (Array.isArray(refuge.urls)) {
-    urlsHTML = refuge.url
+    urlsHTML = refuge.urls
       .map(
         url =>
           `<a href="${escapeHTML(
