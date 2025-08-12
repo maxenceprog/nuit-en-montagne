@@ -98,5 +98,6 @@ body {
 
   #sidebar.minimized {
     height: 10%;
+    width: 100%;
   }
 }
