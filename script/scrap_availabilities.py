@@ -22,7 +22,7 @@ headers = {
 
 
 # ----------- Request Template -----------
-def build_payload(structure_oid, date="2025-08-01"):
+def build_payload(structure_oid):
     return {
         "action": "availability",
         "parent_url": "",
@@ -31,11 +31,9 @@ def build_payload(structure_oid, date="2025-08-01"):
         "structures": "",
         "faqurl": "",
         "faqtitle": "",
-        "mode": "FORM",
         "structure": structure_oid,
         "productCategory": "nomatter",
         "pax": "1",
-        "date": date,
     }
 
 
@@ -44,7 +42,7 @@ session = requests.Session()
 results = {}
 
 
-for refuge in refuges:
+for refuge in refuges.values():
     name = refuge["name"]
     structure_oid = refuge["backend"]["structure"]
     payload = build_payload(structure_oid)
