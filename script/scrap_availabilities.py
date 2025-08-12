@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ----------- Load Refuges Data -----------
-with open("docs/refuges.json", "r", encoding="utf-8") as f:
+with open("src/data/refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
 
 
@@ -56,9 +56,7 @@ def build_payload(structure_oid, date="2025-08-01"):
 # ----------- Start Scraping -----------
 session = requests.Session()
 results = {}
-target_date = "2025-08-13"
 
-print("🔍 Checking availability for 2025-08-13...\n")
 
 for refuge in filtered_refuges:
     name = refuge["name"]
@@ -97,7 +95,7 @@ for refuge in filtered_refuges:
     sleep(0.3)  # Be polite
 
 # ----------- Save Results -----------
-with open("docs/refuge_availabilities.json", "w", encoding="utf-8") as f:
+with open("src/data/refuge_availabilities.json", "w", encoding="utf-8") as f:
     json.dump(results, f, indent=2, ensure_ascii=False)
 
 print("\n✅ Done.")
