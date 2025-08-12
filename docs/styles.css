@@ -69,3 +69,28 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;    /* stack vertically */
+    align-items: stretch;      /* let children stretch horizontally */
+  }
+
+  #sidebar {
+    width: 100%;               /* full width */
+    flex: 0 0 auto;            /* height based on content */
+    min-height: 0;             /* reset any min height */
+    height: auto;              /* natural height */
+  }
+
+  #map {
+    width: 100%;
+    flex: 1 1 auto;            /* fill remaining vertical space */
+    min-height: 0;
+    height: auto;
+  }
+
+  #refuge-table {
+    display: none;             /* hide refuge table on mobile */
+  }
+}
