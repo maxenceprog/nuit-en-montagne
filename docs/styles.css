@@ -13,6 +13,7 @@ body {
 }
 
 #map {
+    max-width: 100%;
     width: 100%;
     height: 100%;
     min-height: 0;
@@ -77,6 +78,7 @@ body {
   }
 
   #sidebar {
+    max-width: 100%;
     width: 100%;               /* full width */
     flex: 0 0 auto;            /* height based on content */
     min-height: 0;             /* reset any min height */
@@ -92,5 +94,9 @@ body {
 
   #refuge-table {
     display: none;             /* hide refuge table on mobile */
+  }
+
+  #sidebar.minimized {
+    height: 10%;
   }
 }
