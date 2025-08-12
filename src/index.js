@@ -46,12 +46,6 @@ function getCurrentDate() {
   return `${year}-${month}-${day}`;
 }
 
-const normalize = str =>
-  str
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]/g, '');
 
 // ---------------------- Icons ----------------------
 
@@ -74,8 +68,7 @@ const redIcon = L.icon({
 // ---------------------- Formatting ----------------------
 function formatAvailability(val) {
   if (val === null || val === undefined) return `<span class="unknown">?</span>`;
-  return val > 0
-    ? `<span class="available">${escapeHTML(val)}</span>`
+  return val > 0 ? `<span class="available">${escapeHTML(val)}</span>`
     : `<span class="unavailable">0</span>`;
 }
 
@@ -205,7 +198,10 @@ function initMarkers() {
 
 // ---------------------- Data Loading ----------------------
 
-Object.keys(refuges_metadata).forEach(structure => refuges_metadata[structure]["availability"] = refuges_availabilities[structure].availability)
+Object.keys(refuges_metadata).forEach(structure => {
+  refuges_metadata[structure].availability =
+    refuges_availabilities[structure]?.availability
+});
 
 allRefuges = Object.values(refuges_metadata);
 
@@ -213,9 +209,9 @@ initMap();
 initTable();
 initMarkers();
 table.on('tableBuilt', () => {
-    updateTableAndMap();
+  updateTableAndMap();
 });
-  
+
 
 
 // ---------------------- Event Listeners ----------------------

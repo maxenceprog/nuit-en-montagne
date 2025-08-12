@@ -10,20 +10,6 @@ with open("src/data/refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
 
 
-# ----------- Exclude Pyrénées -----------
-def select_area(refuge):
-    try:
-        lat = refuge["lat"]
-        lng = refuge["lng"]
-        return (
-            45.0 <= lat <= 46.5 and 5.0 <= lng <= 7.5
-        )  # Covers Savoie, Haute-Savoie, and Isère
-    except KeyError:
-        # If lat/lng are missing, include the refuge
-        return True
-
-
-filtered_refuges = [r for r in refuges]
 
 # ----------- FFCAM Endpoint & Headers -----------
 url = "https://centrale.ffcam.fr/index.php?"
@@ -58,7 +44,7 @@ session = requests.Session()
 results = {}
 
 
-for refuge in filtered_refuges:
+for refuge in refuges:
     name = refuge["name"]
     structure_oid = refuge["backend"]["structure"]
     payload = build_payload(structure_oid)
