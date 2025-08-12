@@ -9,7 +9,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # <-- Ensure this line is present
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
