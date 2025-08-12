@@ -1,22 +1,27 @@
 import json
-import requests
 import re
-from bs4 import BeautifulSoup
 from time import sleep
+
+import requests
+from bs4 import BeautifulSoup
 
 # ----------- Load Refuges Data -----------
 with open("docs/refuges.json", "r", encoding="utf-8") as f:
     refuges = json.load(f)
+
 
 # ----------- Exclude Pyrénées -----------
 def select_area(refuge):
     try:
         lat = refuge["lat"]
         lng = refuge["lng"]
-        return  (45.0 <= lat <= 46.5 and 5.0 <= lng <= 7.5)  # Covers Savoie, Haute-Savoie, and Isère
+        return (
+            45.0 <= lat <= 46.5 and 5.0 <= lng <= 7.5
+        )  # Covers Savoie, Haute-Savoie, and Isère
     except KeyError:
         # If lat/lng are missing, include the refuge
         return True
+
 
 filtered_refuges = [r for r in refuges]
 
@@ -28,6 +33,7 @@ headers = {
     "Referer": "https://centrale.ffcam.fr/index.php?",
     "Accept-Encoding": "gzip, deflate, br, zstd",
 }
+
 
 # ----------- Request Template -----------
 def build_payload(structure_oid, date="2025-08-01"):
@@ -46,9 +52,10 @@ def build_payload(structure_oid, date="2025-08-01"):
         "date": date,
     }
 
+
 # ----------- Start Scraping -----------
 session = requests.Session()
-results = []
+results = {}
 target_date = "2025-08-13"
 
 print("🔍 Checking availability for 2025-08-13...\n")
@@ -65,27 +72,29 @@ for refuge in filtered_refuges:
 
         availability = {}
         if script_tag:
-            match = re.search(r"BK\.globalAvailability\s*=\s*({.*?});", script_tag.string)
+            match = re.search(
+                r"BK\.globalAvailability\s*=\s*({.*?});", script_tag.string
+            )
             if match:
                 availability = json.loads(match.group(1))
 
-
-        results.append({
+        results[structure_oid] = {
             "name": name,
             "structure": structure_oid,
             "availability": availability,
-        })
+        }
+
         print(f"Get {name} availability")
 
     except Exception as e:
         print(f"⚠️ Error fetching {name}: {e}")
-        results.append({
+        results[name] = {
             "name": name,
             "structure": structure_oid,
-            "error": str(e)
-        })
+            "error": str(e),
+        }
 
-    sleep(0.2)  # Be polite
+    sleep(0.3)  # Be polite
 
 # ----------- Save Results -----------
 with open("docs/refuge_availabilities.json", "w", encoding="utf-8") as f:

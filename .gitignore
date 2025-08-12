@@ -1,1 +1,3 @@
-archive/
+archive
+node_modules
+dist

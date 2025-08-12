@@ -1,5 +1,5 @@
-[
-  {
+{
+  "BK_STRUCTURE:85": {
     "name": "REFUGE DE L'AIGLE (FFCAM)",
     "structure": "BK_STRUCTURE:85",
     "availability": {
@@ -66,7 +66,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:58": {
     "name": "REFUGE DES AIGUILLES D'ARVES (FFCAM)",
     "structure": "BK_STRUCTURE:58",
     "availability": {
@@ -133,7 +133,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:22": {
     "name": "REFUGE ALBERT 1ER (FFCAM)",
     "structure": "BK_STRUCTURE:22",
     "availability": {
@@ -200,7 +200,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:74": {
     "name": "REFUGE DE L'ALPE DE VILLAR D'ARÈNE (FFCAM)",
     "structure": "BK_STRUCTURE:74",
     "availability": {
@@ -267,7 +267,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:54": {
     "name": "REFUGE D'AMBIN (FFCAM)",
     "structure": "BK_STRUCTURE:54",
     "availability": {
@@ -334,7 +334,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:124": {
     "name": "REFUGE D'ARRÉMOULIT (FFCAM)",
     "structure": "BK_STRUCTURE:124",
     "availability": {
@@ -401,7 +401,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:53": {
     "name": "REFUGE D'AVEROLE (FFCAM)",
     "structure": "BK_STRUCTURE:53",
     "availability": {
@@ -468,7 +468,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:68": {
     "name": "REFUGE DES BANS (FFCAM)",
     "structure": "BK_STRUCTURE:68",
     "availability": {
@@ -535,7 +535,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:107": {
     "name": "REFUGE DE BAYSSELLANCE (FFCAM)",
     "structure": "BK_STRUCTURE:107",
     "availability": {
@@ -602,7 +602,7 @@
       "2025-09-30": 56
     }
   },
-  {
+  "BK_STRUCTURE:125": {
     "name": "REFUGE DES BÉSINES (FFCAM)",
     "structure": "BK_STRUCTURE:125",
     "availability": {
@@ -669,7 +669,7 @@
       "2025-09-30": 43
     }
   },
-  {
+  "BK_STRUCTURE:46": {
     "name": "CHALET DE BONNEVAL SUR ARC (FFCAM)",
     "structure": "BK_STRUCTURE:46",
     "availability": {
@@ -736,7 +736,7 @@
       "2025-09-30": 15
     }
   },
-  {
+  "BK_STRUCTURE:112": {
     "name": "REFUGE DE LA BRÈCHE DE ROLAND - LES SARRADETS (FFCAM)",
     "structure": "BK_STRUCTURE:112",
     "availability": {
@@ -803,7 +803,7 @@
       "2025-09-30": 31
     }
   },
-  {
+  "BK_STRUCTURE:113": {
     "name": "REFUGE DE CAMPANA DE CLOUTOU (FFCAM)",
     "structure": "BK_STRUCTURE:113",
     "availability": {
@@ -870,7 +870,7 @@
       "2025-09-30": 36
     }
   },
-  {
+  "BK_STRUCTURE:48": {
     "name": "REFUGE DU CARRO (FFCAM)",
     "structure": "BK_STRUCTURE:48",
     "availability": {
@@ -937,7 +937,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:63": {
     "name": "REFUGE DE CHABOURNÉOU (FFCAM)",
     "structure": "BK_STRUCTURE:63",
     "availability": {
@@ -1004,7 +1004,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:97": {
     "name": "REFUGE DE CHAMBEYRON (FFCAM)",
     "structure": "BK_STRUCTURE:97",
     "availability": {
@@ -1071,7 +1071,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:83": {
     "name": "REFUGE DU CHATELLERET (FFCAM)",
     "structure": "BK_STRUCTURE:83",
     "availability": {
@@ -1138,7 +1138,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:67": {
     "name": "REFUGE DU CLOT - XAVIER BLANC (FFCAM)",
     "structure": "BK_STRUCTURE:67",
     "availability": {
@@ -1205,7 +1205,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:45": {
     "name": "REFUGE DU COL DE LA VANOISE",
     "structure": "BK_STRUCTURE:45",
     "availability": {
@@ -1272,7 +1272,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:34": {
     "name": "REFUGE DES CONSCRITS (FFCAM)",
     "structure": "BK_STRUCTURE:34",
     "availability": {
@@ -1339,7 +1339,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:4m2wkebwwg2f": {
     "name": "CHALET DES CONTAMINES (FFCAM)",
     "structure": "BK_STRUCTURE:4m2wkebwwg2f",
     "availability": {
@@ -1406,7 +1406,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:129": {
     "name": "REFUGE DES CORTALETS (FFCAM)",
     "structure": "BK_STRUCTURE:129",
     "availability": {
@@ -1473,7 +1473,7 @@
       "2025-09-30": 80
     }
   },
-  {
+  "BK_STRUCTURE:24": {
     "name": "REFUGE DU COUVERCLE (FFCAM)",
     "structure": "BK_STRUCTURE:24",
     "availability": {
@@ -1540,7 +1540,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:35": {
     "name": "REFUGE DE LA CROIX DU BONHOMME (FFCAM)",
     "structure": "BK_STRUCTURE:35",
     "availability": {
@@ -1607,7 +1607,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:13": {
     "name": "REFUGE DE LA DENT D'OCHE (FFCAM)",
     "structure": "BK_STRUCTURE:13",
     "availability": {
@@ -1674,7 +1674,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:52": {
     "name": "REFUGE DE LA DENT PARRACHÉE",
     "structure": "BK_STRUCTURE:52",
     "availability": {
@@ -1741,7 +1741,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:59": {
     "name": "REFUGE DES DRAYÈRES (FFCAM)",
     "structure": "BK_STRUCTURE:59",
     "availability": {
@@ -1808,7 +1808,7 @@
       "2025-09-30": 35
     }
   },
-  {
+  "BK_STRUCTURE:82": {
     "name": "REFUGE DES ECRINS (FFCAM)",
     "structure": "BK_STRUCTURE:82",
     "availability": {
@@ -1875,7 +1875,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:26": {
     "name": "REFUGE DE L'ENVERS DES AIGUILLES (FFCAM)",
     "structure": "BK_STRUCTURE:26",
     "availability": {
@@ -1942,7 +1942,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:111": {
     "name": "REFUGE D'ESPINGO (FFCAM)",
     "structure": "BK_STRUCTURE:111",
     "availability": {
@@ -2009,7 +2009,7 @@
       "2025-09-30": 60
     }
   },
-  {
+  "BK_STRUCTURE:57": {
     "name": "REFUGE DE L'ETENDARD (FFCAM)",
     "structure": "BK_STRUCTURE:57",
     "availability": {
@@ -2076,7 +2076,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:47": {
     "name": "REFUGE DES EVETTES (FFCAM)",
     "structure": "BK_STRUCTURE:47",
     "availability": {
@@ -2143,7 +2143,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:47ntr9jg1dif": {
     "name": "CHALET ALPIN L'EYCHAUDA (FFCAM)",
     "structure": "BK_STRUCTURE:47ntr9jg1dif",
     "availability": {
@@ -2210,7 +2210,7 @@
       "2025-09-30": 16
     }
   },
-  {
+  "BK_STRUCTURE:51": {
     "name": "REFUGE DU FOND D'AUSSOIS",
     "structure": "BK_STRUCTURE:51",
     "availability": {
@@ -2277,7 +2277,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:94": {
     "name": "REFUGE DE GIALORGUES (FFCAM)",
     "structure": "BK_STRUCTURE:94",
     "availability": {
@@ -2344,7 +2344,7 @@
       "2025-09-30": 12
     }
   },
-  {
+  "BK_STRUCTURE:72": {
     "name": "REFUGE DU GLACIER BLANC (FFCAM)",
     "structure": "BK_STRUCTURE:72",
     "availability": {
@@ -2411,7 +2411,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:123": {
     "name": "CHALET DE GOURETTE (FFCAM)",
     "structure": "BK_STRUCTURE:123",
     "availability": {
@@ -2478,7 +2478,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:44": {
     "name": "REFUGE DU GRAND BEC (FFCAM)",
     "structure": "BK_STRUCTURE:44",
     "availability": {
@@ -2545,7 +2545,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:28": {
     "name": "REFUGE DES GRANDS MULETS (FFCAM)",
     "structure": "BK_STRUCTURE:28",
     "availability": {
@@ -2612,7 +2612,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:116": {
     "name": "CHALET LA GRANGE DE HOLLE (FFCAM)",
     "structure": "BK_STRUCTURE:116",
     "availability": {
@@ -2679,7 +2679,7 @@
       "2025-09-30": 59
     }
   },
-  {
+  "BK_STRUCTURE:15": {
     "name": "CHALET DU GRAYDON (FFCAM)",
     "structure": "BK_STRUCTURE:15",
     "availability": {
@@ -2746,7 +2746,7 @@
       "2025-09-30": 18
     }
   },
-  {
+  "BK_STRUCTURE:139": {
     "name": "REFUGE DE LA GLÈRE (FFCAM)",
     "structure": "BK_STRUCTURE:139",
     "availability": {
@@ -2813,7 +2813,7 @@
       "2025-09-30": 30
     }
   },
-  {
+  "BK_STRUCTURE:76": {
     "name": "REFUGE DE LA LAVEY (FFCAM)",
     "structure": "BK_STRUCTURE:76",
     "availability": {
@@ -2880,7 +2880,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:100": {
     "name": "CHALET DE LA MALINE - VERDON (FFCAM)",
     "structure": "BK_STRUCTURE:100",
     "availability": {
@@ -2947,7 +2947,7 @@
       "2025-09-30": 7
     }
   },
-  {
+  "BK_STRUCTURE:56": {
     "name": "REFUGE DE LA PRA (FFCAM)",
     "structure": "BK_STRUCTURE:56",
     "availability": {
@@ -3014,7 +3014,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:5": {
     "name": "CHALET DU LANGENBERG (FFCAM)",
     "structure": "BK_STRUCTURE:5",
     "availability": {
@@ -3081,7 +3081,7 @@
       "2025-09-30": 26
     }
   },
-  {
+  "BK_STRUCTURE:121": {
     "name": "REFUGE DE LARRIBET (FFCAM)",
     "structure": "BK_STRUCTURE:121",
     "availability": {
@@ -3148,7 +3148,7 @@
       "2025-09-30": 60
     }
   },
-  {
+  "BK_STRUCTURE:47ntqvy8e2a1": {
     "name": "CHALET ALPIN DU TOUR (FFCAM)",
     "structure": "BK_STRUCTURE:47ntqvy8e2a1",
     "availability": {
@@ -3215,7 +3215,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:65": {
     "name": "REFUGE DES SOUFFLES (FFCAM)",
     "structure": "BK_STRUCTURE:65",
     "availability": {
@@ -3282,7 +3282,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:25": {
     "name": "REFUGE DE LESCHAUX (FFCAM)",
     "structure": "BK_STRUCTURE:25",
     "availability": {
@@ -3349,7 +3349,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:87": {
     "name": "CHALET DE LA MADONE DE FENESTRE (FFCAM)",
     "structure": "BK_STRUCTURE:87",
     "availability": {
@@ -3416,7 +3416,7 @@
       "2025-09-30": 50
     }
   },
-  {
+  "BK_STRUCTURE:98": {
     "name": "CHALET DE MALJASSET (FFCAM)",
     "structure": "BK_STRUCTURE:98",
     "availability": {
@@ -3483,7 +3483,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:110": {
     "name": "REFUGE DU MAUPAS (FFCAM)",
     "structure": "BK_STRUCTURE:110",
     "availability": {
@@ -3550,7 +3550,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:88": {
     "name": "REFUGE DES MERVEILLES (FFCAM)",
     "structure": "BK_STRUCTURE:88",
     "availability": {
@@ -3617,7 +3617,7 @@
       "2025-09-30": 68
     }
   },
-  {
+  "BK_STRUCTURE:38": {
     "name": "REFUGE DU MONT POURRI (FFCAM)",
     "structure": "BK_STRUCTURE:38",
     "availability": {
@@ -3684,7 +3684,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:60": {
     "name": "REFUGE DU MONT THABOR (FFCAM)",
     "structure": "BK_STRUCTURE:60",
     "availability": {
@@ -3751,7 +3751,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:90": {
     "name": "REFUGE DE NICE (FFCAM)",
     "structure": "BK_STRUCTURE:90",
     "availability": {
@@ -3818,7 +3818,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:70": {
     "name": "REFUGE DE L'OLAN (FFCAM)",
     "structure": "BK_STRUCTURE:70",
     "availability": {
@@ -3885,7 +3885,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:117": {
     "name": "REFUGE DES OULETTES DE GAUBE (FFCAM)",
     "structure": "BK_STRUCTURE:117",
     "availability": {
@@ -3952,7 +3952,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:17": {
     "name": "REFUGE DU PARMELAN (FFCAM)",
     "structure": "BK_STRUCTURE:17",
     "availability": {
@@ -4019,7 +4019,7 @@
       "2025-09-30": 45
     }
   },
-  {
+  "BK_STRUCTURE:84": {
     "name": "REFUGE DU PAVÉ (FFCAM)",
     "structure": "BK_STRUCTURE:84",
     "availability": {
@@ -4086,7 +4086,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:50": {
     "name": "REFUGE DE PÉCLET-POLSET",
     "structure": "BK_STRUCTURE:50",
     "availability": {
@@ -4153,7 +4153,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:79": {
     "name": "REFUGE DU PELVOUX (FFCAM)",
     "structure": "BK_STRUCTURE:79",
     "availability": {
@@ -4220,7 +4220,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:69": {
     "name": "REFUGE DU PIGEONNIER (FFCAM)",
     "structure": "BK_STRUCTURE:69",
     "availability": {
@@ -4287,7 +4287,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:4": {
     "name": "CHALET DU PLAIN DU CANON (FFCAM)",
     "structure": "BK_STRUCTURE:4",
     "availability": {
@@ -4354,7 +4354,7 @@
       "2025-09-30": 10
     }
   },
-  {
+  "BK_STRUCTURE:40": {
     "name": "REFUGE DU PLAN DES GOUILLES (FFCAM)",
     "structure": "BK_STRUCTURE:40",
     "availability": {
@@ -4421,7 +4421,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:20": {
     "name": "REFUGE DE PLATÉ (FFCAM)",
     "structure": "BK_STRUCTURE:20",
     "availability": {
@@ -4488,7 +4488,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:18": {
     "name": "REFUGE DE LA POINTE PERCÉE - GRAMUSSET (FFCAM)",
     "structure": "BK_STRUCTURE:18",
     "availability": {
@@ -4555,7 +4555,7 @@
       "2025-09-30": 49
     }
   },
-  {
+  "BK_STRUCTURE:106": {
     "name": "REFUGE DE POMBIE (FFCAM)",
     "structure": "BK_STRUCTURE:106",
     "availability": {
@@ -4622,7 +4622,7 @@
       "2025-09-30": 45
     }
   },
-  {
+  "BK_STRUCTURE:109": {
     "name": "REFUGE DU PORTILLON (FFCAM)",
     "structure": "BK_STRUCTURE:109",
     "availability": {
@@ -4689,7 +4689,7 @@
       "2025-09-30": 76
     }
   },
-  {
+  "BK_STRUCTURE:61": {
     "name": "REFUGE DU PRÉ LA CHAUMETTE (FFCAM)",
     "structure": "BK_STRUCTURE:61",
     "availability": {
@@ -4756,7 +4756,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:37": {
     "name": "REFUGE DE PRESSET (FFCAM)",
     "structure": "BK_STRUCTURE:37",
     "availability": {
@@ -4823,7 +4823,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:75": {
     "name": "REFUGE DU PROMONTOIRE (FFCAM)",
     "structure": "BK_STRUCTURE:75",
     "availability": {
@@ -4890,7 +4890,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:93": {
     "name": "REFUGE DE RABUONS (FFCAM)",
     "structure": "BK_STRUCTURE:93",
     "availability": {
@@ -4957,7 +4957,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:103": {
     "name": "CHALET DE SAINT-GUILHEM-LE-DÉSERT (FFCAM)",
     "structure": "BK_STRUCTURE:103",
     "availability": {
@@ -5024,7 +5024,7 @@
       "2025-09-30": 8
     }
   },
-  {
+  "BK_STRUCTURE:101": {
     "name": "CHALET DU SANCY (FFCAM)",
     "structure": "BK_STRUCTURE:101",
     "availability": {
@@ -5091,7 +5091,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:78": {
     "name": "REFUGE DU SÉLÉ (FFCAM)",
     "structure": "BK_STRUCTURE:78",
     "availability": {
@@ -5158,7 +5158,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:9": {
     "name": "CHALET DES TUFFES (FFCAM)",
     "structure": "BK_STRUCTURE:9",
     "availability": {
@@ -5225,7 +5225,7 @@
       "2025-09-30": 20
     }
   },
-  {
+  "BK_STRUCTURE:62": {
     "name": "REFUGE DE VALLONPIERRE (FFCAM)",
     "structure": "BK_STRUCTURE:62",
     "availability": {
@@ -5292,7 +5292,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:89": {
     "name": "REFUGE DE LA VALMASQUE (FFCAM)",
     "structure": "BK_STRUCTURE:89",
     "availability": {
@@ -5359,7 +5359,7 @@
       "2025-09-30": 0
     }
   },
-  {
+  "BK_STRUCTURE:104": {
     "name": "CHALET DE VAUCHIGNON (FFCAM)",
     "structure": "BK_STRUCTURE:104",
     "availability": {
@@ -5426,7 +5426,7 @@
       "2025-09-30": 24
     }
   },
-  {
+  "BK_STRUCTURE:108": {
     "name": "REFUGE DE VÉNASQUE (FFCAM)",
     "structure": "BK_STRUCTURE:108",
     "availability": {
@@ -5493,7 +5493,7 @@
       "2025-09-30": 26
     }
   },
-  {
+  "BK_STRUCTURE:95": {
     "name": "REFUGE DES LACS DE VENS (FFCAM)",
     "structure": "BK_STRUCTURE:95",
     "availability": {
@@ -5560,7 +5560,7 @@
       "2025-09-30": 36
     }
   },
-  {
+  "BK_STRUCTURE:96": {
     "name": "REFUGE DU VISO (FFCAM)",
     "structure": "BK_STRUCTURE:96",
     "availability": {
@@ -5627,4 +5627,4 @@
       "2025-09-30": 0
     }
   }
-]
+}
