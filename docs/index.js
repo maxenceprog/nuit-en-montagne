@@ -5,6 +5,8 @@ let table,
   map,
   markers = []
 
+const welcomeHtml = document.getElementById('info-panel').outerHTML
+
 const infoPanel = document.getElementById('info-panel')
 const dateInput = document.getElementById('date-picker')
 
@@ -96,7 +98,7 @@ function showInfo (refuge) {
 function resetView () {
   table.clearFilter()
   updateTableAndMap()
-  infoPanel.innerHTML = `<p>Select a refuge to view more details.</p>`
+  infoPanel.innerHTML = welcomeHtml
 }
 
 // ---------------------- Main Update ----------------------
@@ -247,4 +249,13 @@ Promise.all([
 dateInput.addEventListener('change', e => {
   currentDate = e.target.value
   updateTableAndMap()
+})
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.getElementById('toggle-sidebar')
+  const sidebar = document.getElementById('sidebar')
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('minimized')
+    })
+  }
 })

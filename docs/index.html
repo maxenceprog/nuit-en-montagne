@@ -3,16 +3,12 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>FFCAM Refuges Viewer</title>
+  <title>Nuit en montagne</title>
 
   <!-- Responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Content Security Policy
-       - Limits script/style sources to self and the (trusted) CDNs used below.
-       - If you self-host the libraries, remove the CDN hosts from this list.
-       - For production, consider setting CSP via HTTP headers (more secure).
-  -->
+  <!-- Content Security Policy -->
   <meta http-equiv="Content-Security-Policy" content="
           default-src 'self';
           script-src 'self' https://cdn.jsdelivr.net https://unpkg.com;
@@ -20,44 +16,46 @@
           img-src    'self' data: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://unpkg.com/leaflet@1.9.4/dist/images/ https://raw.githubusercontent.com;
           connect-src 'self';
         ">
-  <!-- External styles (CDN). Consider adding Subresource Integrity (SRI) attributes with crossorigin -->
+  <!-- External styles (CDN). -->
   <link href="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" crossorigin="anonymous" />
-
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="header">
-    <div id="controls" aria-hidden="false">
-      <h2>🏔 FFCAM Refuges Viewer</h2>
-    </div>
-
-    <div>
-      <label for="date-picker">Check availability for:</label>
-      <input type="date" id="date-picker" aria-label="Check availability date" />
-    </div>
-  </div>
-
   <div id="main">
     <div id="map" role="region" aria-label="Map of refuges"></div>
-
     <div id="sidebar">
+      <button id="toggle-sidebar" aria-controls="sidebar">☰</button>
+      <div>
+        <label id="date" for="date-picker">Check availability for:</label>
+        <input type="date" id="date-picker" aria-label="Check availability date" />
+      </div>
       <div id="refuge-table" aria-label="Refuges table"></div>
       <div id="info-panel" aria-live="polite">
-        <p>Select a refuge to view more details.</p>
+        <h1>⛰️🛖⛰️</h1>
+        <h1>Bienvenue</h1>
+        <p>Ceci est un projet expérimental pour simplifier les réservations de refuge sur le site du <a
+            href="https://www.ffcam.fr/rechercher_refuge_chalet.html"> FFCAM</a>.</p>
+        <p>Les infos sont mises à jour tous les jours à 8h.</p>
+        <p>Retrouvez le code de mon projet ici : <a href="https://github.com/maxenceprog/nuit-en-montagne"> github</a>
+        </p>
       </div>
+
     </div>
   </div>
 
-  <!-- External JS libs (deferred). Add SRI attributes for production when you have the hashes -->
+  <!-- External JS libs (deferred). -->
   <script src="https://cdn.jsdelivr.net/npm/tabulator-tables/dist/js/tabulator.min.js" defer
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer crossorigin="anonymous"></script>
 
-  <!-- Your app script (deferred). This will run after DOM + deferred libs -->
+
   <script src="index.js" defer></script>
+
 </body>
+
+
 
 </html>
