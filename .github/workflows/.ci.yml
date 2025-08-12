@@ -2,7 +2,7 @@ name: Daily Refuge Availability Scraper
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Runs every day at 02:00 UTC
+    - cron: '0 6 * * *' # Runs every day
   workflow_dispatch:
 
 jobs:
@@ -35,4 +35,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add docs/refuge_availabilities.json
           git commit -m "Update refuge availabilities [CI skip]" || echo "No changes to commit"
-          git push https://x-access-token:${GH_TOKEN}@github.com/maxenceprog/refuges-tour.fr
+          git push https://x-access-token:${GH_TOKEN}@github.com/maxenceprog/nuit-en-montagne
