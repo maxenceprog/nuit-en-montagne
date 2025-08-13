@@ -153,16 +153,18 @@ function initTable() {
     pagination: 'local',
     paginationSize: 10,
     columns: [
-      { title: 'Refuge', field: 'name', headerFilter: 'input', widthGrow: 2 },
-      { title: 'Altitude', field: 'altitude_m', hozAlign: 'center', width: 90 },
-      { title: 'Places', field: 'places', hozAlign: 'center', width: 80 },
+      { title: '🛖 Refuge', field: 'name', headerFilter: 'input', minWidth: 200, widthGrow: 1 },
       {
-        title: 'Available',
+        title: '👤 Places restantes',
         field: 'available_places',
         hozAlign: 'center',
-        width: 110,
+        width: 200,
         formatter: cell => formatAvailability(cell.getValue())
-      }
+      },
+      { title: '👥 Total', field: 'places', hozAlign: 'center', width: 100 },
+      { title: '🔝 Altitude', field: 'altitude_m', hozAlign: 'center', width: 100 }
+
+
     ]
   });
 
@@ -226,6 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (toggleBtn) {
     toggleBtn.addEventListener('click', () => {
       sidebar.classList.toggle('minimized');
+      map.invalidateSize();
     });
   }
 });
