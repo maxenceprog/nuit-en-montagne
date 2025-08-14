@@ -151,7 +151,7 @@ function initTable() {
   table = new Tabulator('#refuge-table', {
     layout: 'fitColumns',
     pagination: 'local',
-    paginationSize: 10,
+    paginationSize: 100,
     columns: [
       { title: '🛖 Refuge', field: 'name', headerFilter: 'input', minWidth: 200, widthGrow: 1 },
       {
