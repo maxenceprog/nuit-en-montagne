@@ -12,5 +12,9 @@ et qui veulent voir en un coup d'oeil les refuges encore disponibles.
 
 Ce site est une page static (Github page).
 
-Les données sont mises à jour à 8h du matin par la CI en commitant tout simplement directement dans le répertoire.
+~~Les données sont mises à jour à 8h du matin par la CI en commitant tout simplement directement dans le répertoire.~~
+
+Mise à jour des données désactivées pour le moment
+
+
 
