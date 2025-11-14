@@ -1,9 +1,8 @@
 name: Daily Refuge Availability Scraper
 
 on:
-  schedule:
-    - cron: '0 6 * * *' # Runs every day
-  workflow_dispatch:
+  workflow_call:
+    
 
 jobs:
   scrape:
