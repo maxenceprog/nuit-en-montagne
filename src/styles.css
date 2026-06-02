@@ -113,4 +113,11 @@ body {
     overscroll-behavior: contain;
     touch-action: pan-y;
   }
+
+  /* Let sidebar-content grow to its natural height so #sidebar can scroll it */
+  #sidebar-content {
+    flex: none;
+    display: block;
+    min-height: unset;
+  }
 }
