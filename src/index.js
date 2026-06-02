@@ -86,10 +86,10 @@ function showInfo(refuge) {
 
   infoPanel.innerHTML = `
     <h3>${escapeHTML(refuge.name)}</h3>
-    <p><strong>Altitude:</strong> ${escapeHTML(refuge.altitude_m || '?')} m</p>
-    <p><strong>Capacity:</strong> ${escapeHTML(refuge.places || '?')} places</p>
-    <p><strong>Gardien(s):</strong> ${escapeHTML(refuge.gardien || 'Non renseigné')}</p>
-    <p><strong>Available on ${escapeHTML(currentDate)}:</strong> ${escapeHTML(avail)}</p>
+    <p><strong>Altitude :</strong> ${escapeHTML(refuge.altitude_m || '?')} m</p>
+    <p><strong>Capacité :</strong> ${escapeHTML(refuge.places || '?')} places</p>
+    <p><strong>Gardien(s) :</strong> ${escapeHTML(refuge.gardien || 'Non renseigné')}</p>
+    <p><strong>Disponible le ${escapeHTML(currentDate)} :</strong> ${escapeHTML(avail)}</p>
     ${refuge.description ? `<p>${escapeHTML(refuge.description)}</p>` : ''}
     ${urlsHTML}
   `;
@@ -120,7 +120,7 @@ function updateTableAndMap() {
     const safeName = escapeHTML(refuge.name);
     const safeRaw = escapeHTML(raw ?? '?');
     marker.setPopupContent(
-      `<strong>${safeName}</strong><br>Available on ${escapeHTML(currentDate)}: ${safeRaw}`
+      `<strong>${safeName}</strong><br>Disponible le ${escapeHTML(currentDate)} : ${safeRaw}`
     );
   });
 }
