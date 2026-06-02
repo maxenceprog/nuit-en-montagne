@@ -8,6 +8,7 @@ import markerIconUrl from 'leaflet/dist/images/marker-icon.png';
 import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png';
 import markerRedUrl from './data/red-marker-icon.png';
 import refuges_metadata from './data/refuges.json';
+import camptocamp_links from './data/camptocamp_links.json';
 import './styles.css';
 
 const GIST_URL = 'https://gist.githubusercontent.com/maxenceprog/c9fd8f1ee13451084c0c1d1a30e041ca/raw/refuge_availabilities.json';
@@ -84,6 +85,11 @@ function showInfo(refuge) {
       .join('<br>');
   }
 
+  const c2cUrl = camptocamp_links[refuge.backend?.structure];
+  const c2cHTML = c2cUrl
+    ? `<p><strong>Camptocamp :</strong> <a href="${escapeHTML(c2cUrl)}" target="_blank" rel="noopener noreferrer">voir la fiche 🏔️</a></p>`
+    : '';
+
   infoPanel.innerHTML = `
     <h3>${escapeHTML(refuge.name)}</h3>
     <p><strong>Altitude :</strong> ${escapeHTML(refuge.altitude_m || '?')} m</p>
@@ -91,6 +97,7 @@ function showInfo(refuge) {
     <p><strong>Gardien(s) :</strong> ${escapeHTML(refuge.gardien || 'Non renseigné')}</p>
     <p><strong>Disponible le ${escapeHTML(currentDate)} :</strong> ${escapeHTML(avail)}</p>
     ${refuge.description ? `<p>${escapeHTML(refuge.description)}</p>` : ''}
+    ${c2cHTML}
     ${urlsHTML}
   `;
 }
