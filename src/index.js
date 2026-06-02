@@ -7,9 +7,10 @@ import { TabulatorFull as Tabulator } from 'tabulator-tables';
 import markerIconUrl from 'leaflet/dist/images/marker-icon.png';
 import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png';
 import markerRedUrl from './data/red-marker-icon.png';
-import refuges_availabilities from './data/refuge_availabilities.json';
 import refuges_metadata from './data/refuges.json';
 import './styles.css';
+
+const GIST_URL = 'https://gist.githubusercontent.com/maxenceprog/c9fd8f1ee13451084c0c1d1a30e041ca/raw/refuge_availabilities.json';
 // Fix Leaflet's default icon paths for vite
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -200,19 +201,21 @@ function initMarkers() {
 
 // ---------------------- Data Loading ----------------------
 
-Object.keys(refuges_metadata).forEach(structure => {
-  refuges_metadata[structure].availability =
-    refuges_availabilities[structure]?.availability
-});
-
-allRefuges = Object.values(refuges_metadata);
-
 initMap();
 initTable();
 initMarkers();
-table.on('tableBuilt', () => {
-  updateTableAndMap();
-});
+
+fetch(GIST_URL)
+  .then(r => r.json())
+  .then(refuges_availabilities => {
+    Object.keys(refuges_metadata).forEach(structure => {
+      refuges_metadata[structure].availability =
+        refuges_availabilities[structure]?.availability;
+    });
+    allRefuges = Object.values(refuges_metadata);
+    table.on('tableBuilt', () => updateTableAndMap());
+    updateTableAndMap();
+  });
 
 
 
