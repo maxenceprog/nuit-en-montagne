@@ -109,5 +109,6 @@ body {
     width: 100%;
     border-left: none;
     border-top: 1px solid var(--border-color);
+    overflow-y: auto;
   }
 }
