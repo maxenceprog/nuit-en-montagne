@@ -21,7 +21,7 @@
   "homepage": "https://github.com/maxenceprog/nuit-en-montagne#readme",
   "dependencies": {
     "leaflet": "1.9",
-    "tabulator-tables": "6.3"
+    "tabulator-tables": "6.4"
   },
   "devDependencies": {
     "vite": "6.4"
