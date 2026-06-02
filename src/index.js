@@ -225,44 +225,29 @@ dateInput.addEventListener('change', e => {
   updateTableAndMap();
 });
 
-// ---- Sidebar toggle ----
-const toggleBtn = document.getElementById('toggle-sidebar');
-const sidebar = document.getElementById('sidebar');
-const mapEl = document.getElementById('map');
+// ---- Panel toggle (Leaflet control, works on desktop + mobile) ----
+const mainEl = document.getElementById('map').parentElement;
+const mapEl  = document.getElementById('map');
 
-const MOBILE_BTN_H = 40;        // px — matches 2.5rem
-const MOBILE_PANEL_RATIO = 0.45; // 45 % of viewport when expanded
-let mobileExpanded = true;
+const panelToggle = L.control({ position: 'topright' });
+panelToggle.onAdd = function () {
+  const div = L.DomUtil.create('div', 'leaflet-bar leaflet-control panel-toggle');
+  const a   = L.DomUtil.create('a', '', div);
+  a.href  = '#';
+  a.title = 'Maximiser / réduire la carte';
+  a.setAttribute('role', 'button');
+  a.innerHTML = '⤢';
 
-function isMobile() {
-  return window.matchMedia('(max-width: 768px)').matches;
-}
+  L.DomEvent.disableClickPropagation(div);
+  L.DomEvent.on(a, 'click', e => {
+    L.DomEvent.preventDefault(e);
+    const maximized = mainEl.classList.toggle('map-maximized');
+    a.innerHTML = maximized ? '✕' : '⤢';
+    map.invalidateSize();
+  });
 
-function applyLayout() {
-  if (isMobile()) {
-    const vh = window.innerHeight;
-    const panelH = mobileExpanded ? Math.round(vh * MOBILE_PANEL_RATIO) : MOBILE_BTN_H;
-    // Inline styles override all CSS — panel height is always exact
-    sidebar.style.height = panelH + 'px';
-    mapEl.style.height   = (vh - panelH) + 'px';
-  } else {
-    // Let CSS handle desktop layout
-    sidebar.style.height = '';
-    mapEl.style.height   = '';
-  }
-  map.invalidateSize();
-}
-
-toggleBtn.addEventListener('click', () => {
-  if (isMobile()) {
-    mobileExpanded = !mobileExpanded;
-  } else {
-    sidebar.classList.toggle('minimized');
-  }
-  applyLayout();
-});
-
-window.addEventListener('resize', applyLayout);
-applyLayout();
+  return div;
+};
+panelToggle.addTo(map);
 
 new ResizeObserver(() => map.invalidateSize()).observe(mapEl);

@@ -1,6 +1,5 @@
 :root {
-  --sidebar-min-width: 3rem;
-  --sidebar-expanded-width: 40vw;
+  --sidebar-width: 40vw;
   --sidebar-bg: #fff;
   --border-color: #ccc;
   --padding: 1rem;
@@ -24,63 +23,59 @@ body {
   min-height: 0;
 }
 
+/* ── Map ─────────────────────────────────────── */
 #map {
   flex: 1;
   min-height: 0;
+  min-width: 0;
 }
 
-/* ---- Desktop sidebar (row layout, collapses horizontally) ---- */
+/* ── Sidebar (desktop: right panel) ──────────── */
 #sidebar {
   display: flex;
-  flex-direction: row;
-  height: 100%;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: var(--sidebar-width);
   background: var(--sidebar-bg);
   border-left: 1px solid var(--border-color);
   overflow: hidden;
-  width: var(--sidebar-expanded-width);
-  max-width: var(--sidebar-expanded-width);
-  transition: max-width 0.3s ease;
-}
-
-#sidebar.minimized {
-  max-width: var(--sidebar-min-width);
-}
-
-#toggle-sidebar {
-  flex-shrink: 0;
-  width: var(--sidebar-min-width);
-  background: var(--sidebar-bg);
-  border: none;
-  border-right: 1px solid var(--border-color);
-  cursor: pointer;
-  font-size: 1.2rem;
 }
 
 #sidebar-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: var(--padding);
   display: flex;
   flex-direction: column;
-  flex: 1;
-  padding: var(--padding);
-  min-width: 0;
-  overflow-y: auto;
 }
 
+/* ── Maximized: sidebar hidden, map fills all ── */
+.map-maximized #sidebar {
+  display: none;
+}
+
+/* ── Leaflet toggle control ─────────────────── */
+.panel-toggle a {
+  font-size: 1.1rem !important;
+  line-height: 30px !important;
+  font-weight: bold;
+}
+
+/* ── Date picker ─────────────────────────────── */
 #date {
   display: inline-block;
   margin-bottom: var(--padding);
 }
 
+/* ── Info panel ──────────────────────────────── */
 #info-panel {
   border-top: 1px solid #ddd;
   background: #fafafa;
   padding: var(--padding);
-  min-height: fit-content;
 }
 
-#refuge-table {
-  min-height: fit-content;
-}
-
+/* ── Availability colours ────────────────────── */
 .available {
   color: green;
   font-weight: bold;
@@ -97,46 +92,22 @@ body {
   font-weight: bold;
 }
 
-/* ---- Mobile (column layout, panel collapses vertically via JS) ---- */
+/* ── Mobile: panel moves to bottom ───────────── */
 @media (max-width: 768px) {
   #main {
     flex-direction: column;
-    align-items: stretch;
   }
 
   #map {
-    /* height set by JS */
+    flex: 1 1 auto;
+    height: auto;
     width: 100%;
   }
 
   #sidebar {
-    /* height set by JS */
-    flex-direction: column;
+    flex: 0 0 45%;
     width: 100%;
-    max-width: 100%;
     border-left: none;
     border-top: 1px solid var(--border-color);
-    overflow: hidden;
-    transition: none;
-  }
-
-  /* Desktop collapse must not apply on mobile */
-  #sidebar.minimized {
-    max-width: 100%;
-  }
-
-  #toggle-sidebar {
-    flex-shrink: 0;
-    width: 100%;
-    height: 2.5rem;
-    border-right: none;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  #sidebar-content {
-    flex: 1;
-    min-height: 0;
-    overflow-y: auto;
-    padding: var(--padding);
   }
 }
