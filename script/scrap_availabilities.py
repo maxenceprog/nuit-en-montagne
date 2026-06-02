@@ -70,7 +70,7 @@ for refuge in refuges.values():
 
     except Exception as e:
         print(f"⚠️ Error fetching {name}: {e}")
-        results[name] = {
+        results[structure_oid] = {
             "name": name,
             "structure": structure_oid,
             "error": str(e),

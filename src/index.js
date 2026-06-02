@@ -19,7 +19,7 @@ let currentDate = getCurrentDate();
 
 let table, map, markers = [];
 
-const welcomeHtml = document.getElementById('info-panel').outerHTML;
+const welcomeHtml = document.getElementById('info-panel').innerHTML;
 const infoPanel = document.getElementById('info-panel');
 const dateInput = document.getElementById('date-picker');
 

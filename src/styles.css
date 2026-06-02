@@ -38,7 +38,7 @@ body {
   background: var(--sidebar-bg);
   border-left: 1px solid var(--border-color);
   width: var(--sidebar-expanded-width);
-  max-width: var(--sidebar-max-width);
+  max-width: var(--sidebar-expanded-width);
   transition: max-width 0.3s ease;
   overflow: hidden;
 }
