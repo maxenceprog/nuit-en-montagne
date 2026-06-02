@@ -264,3 +264,5 @@ toggleBtn.addEventListener('click', () => {
 
 window.addEventListener('resize', applyLayout);
 applyLayout();
+
+new ResizeObserver(() => map.invalidateSize()).observe(mapEl);
