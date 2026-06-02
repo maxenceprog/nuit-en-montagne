@@ -203,7 +203,6 @@ function initMarkers() {
 
 initMap();
 initTable();
-initMarkers();
 
 fetch(GIST_URL)
   .then(r => r.json())
@@ -213,6 +212,7 @@ fetch(GIST_URL)
         refuges_availabilities[structure]?.availability;
     });
     allRefuges = Object.values(refuges_metadata);
+    initMarkers();
     table.on('tableBuilt', () => updateTableAndMap());
     updateTableAndMap();
   });
