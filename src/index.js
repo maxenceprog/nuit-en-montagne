@@ -225,13 +225,42 @@ dateInput.addEventListener('change', e => {
   updateTableAndMap();
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleBtn = document.getElementById('toggle-sidebar');
-  const sidebar = document.getElementById('sidebar');
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('minimized');
-      map.invalidateSize();
-    });
+// ---- Sidebar toggle ----
+const toggleBtn = document.getElementById('toggle-sidebar');
+const sidebar = document.getElementById('sidebar');
+const mapEl = document.getElementById('map');
+
+const MOBILE_BTN_H = 40;        // px — matches 2.5rem
+const MOBILE_PANEL_RATIO = 0.45; // 45 % of viewport when expanded
+let mobileExpanded = true;
+
+function isMobile() {
+  return window.matchMedia('(max-width: 768px)').matches;
+}
+
+function applyLayout() {
+  if (isMobile()) {
+    const vh = window.innerHeight;
+    const panelH = mobileExpanded ? Math.round(vh * MOBILE_PANEL_RATIO) : MOBILE_BTN_H;
+    // Inline styles override all CSS — panel height is always exact
+    sidebar.style.height = panelH + 'px';
+    mapEl.style.height   = (vh - panelH) + 'px';
+  } else {
+    // Let CSS handle desktop layout
+    sidebar.style.height = '';
+    mapEl.style.height   = '';
   }
+  map.invalidateSize();
+}
+
+toggleBtn.addEventListener('click', () => {
+  if (isMobile()) {
+    mobileExpanded = !mobileExpanded;
+  } else {
+    sidebar.classList.toggle('minimized');
+  }
+  applyLayout();
 });
+
+window.addEventListener('resize', applyLayout);
+applyLayout();
